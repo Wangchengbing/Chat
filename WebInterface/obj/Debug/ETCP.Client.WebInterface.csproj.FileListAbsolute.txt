@@ -1,0 +1,12 @@
+D:\ETCPCode21.247\ETCP\Code\CS\ETCPClient\ETCP.Client.WebInterface\bin\Debug\ETCP.Client.WebInterface.dll
+D:\ETCPCode21.247\ETCP\Code\CS\ETCPClient\ETCP.Client.WebInterface\bin\Debug\ETCP.Client.WebInterface.pdb
+D:\ETCPCode21.247\ETCP\Code\CS\ETCPClient\ETCP.Client.WebInterface\bin\Debug\Newtonsoft.Json.dll
+D:\ETCPCode21.247\ETCP\Code\CS\ETCPClient\ETCP.Client.WebInterface\obj\Debug\ETCP.Client.WebInterface.csprojResolveAssemblyReference.cache
+D:\ETCPCode21.247\ETCP\Code\CS\ETCPClient\ETCP.Client.WebInterface\obj\Debug\ETCP.Client.WebInterface.dll
+D:\ETCPCode21.247\ETCP\Code\CS\ETCPClient\ETCP.Client.WebInterface\obj\Debug\ETCP.Client.WebInterface.pdb
+D:\FTP\boyy\sln\Chat\WebInterface\bin\Debug\ETCP.Client.WebInterface.dll
+D:\FTP\boyy\sln\Chat\WebInterface\bin\Debug\ETCP.Client.WebInterface.pdb
+D:\FTP\boyy\sln\Chat\WebInterface\bin\Debug\Newtonsoft.Json.dll
+D:\FTP\boyy\sln\Chat\WebInterface\obj\Debug\ETCP.Client.WebInterface.csprojResolveAssemblyReference.cache
+D:\FTP\boyy\sln\Chat\WebInterface\obj\Debug\ETCP.Client.WebInterface.dll
+D:\FTP\boyy\sln\Chat\WebInterface\obj\Debug\ETCP.Client.WebInterface.pdb
