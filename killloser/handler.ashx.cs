@@ -6,6 +6,8 @@ using System.IO;
 using System.Text;
 using System.Configuration;
 using System.Web.Security;
+using LoserModel;
+using LoserService;
 namespace killloser
 {
     /// <summary>
@@ -13,7 +15,6 @@ namespace killloser
     /// </summary>
     public class handler : IHttpHandler
     {
-
         public void ProcessRequest(HttpContext context)
         {
             string postString = string.Empty;
@@ -28,8 +29,26 @@ namespace killloser
 
                 if (!string.IsNullOrEmpty(postString))
                 {
-                    //Execute(postString);
+                    //1.检验access_token
+                    if (string.IsNullOrEmpty(ShareData.access_token))
+                    {
+                        //重新请求access_token
+                        new GetAccess_token().Execute("");
+                    }
                 }
+            }
+            else if (HttpContext.Current.Request.HttpMethod.ToUpper() == "GET")
+            {
+
+                //1.检验access_token
+                if (string.IsNullOrEmpty(ShareData.access_token))
+                {
+                    //重新请求access_token
+                    new GetAccess_token().Execute("");
+                }
+                new GetIp_list().Execute("");
+                //Execute(postString);
+
             }
             else
             {
@@ -41,8 +60,7 @@ namespace killloser
         /// </summary>
         private void Auth()
         {
-            string token = ConfigurationManager.AppSettings["WeixinToken"];//从配置文件获取Token
-            if (string.IsNullOrEmpty(token))
+            if (string.IsNullOrEmpty(ShareData.token))
             {
                 //LogTextHelper.Error(string.Format("WeixinToken 配置项没有配置！"));
             }
@@ -52,7 +70,7 @@ namespace killloser
             string timestamp = HttpContext.Current.Request.QueryString["timestamp"];
             string nonce = HttpContext.Current.Request.QueryString["nonce"];
 
-            if (checkSignature(token, signature, timestamp, nonce))
+            if (checkSignature(ShareData.token, signature, timestamp, nonce))
             {
                 if (!string.IsNullOrEmpty(echoString))
                 {
@@ -101,6 +119,17 @@ namespace killloser
             {
                 throw ex;
             }
+        }
+
+
+        /// <summary>
+        /// 业务处理
+        /// </summary>
+        /// <param name="postString"></param>
+        private void Execute(string postString)
+        {
+
+            ServiceBase service = LoserFactory.CreateServiceType(postString);
         }
 
         public bool IsReusable

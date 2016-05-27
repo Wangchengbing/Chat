@@ -1,10 +1,4 @@
-/**
-*@项目名称: 停车场岗亭管理软件系统
-*@文件名称: AssemblyInfo
-*@Date: 2015-06-11 10:24:00
-*@Copyright: 2015 悦畅科技有限公司. All rights reserved.
-*注意：本内容仅限于悦畅科技有限公司内部传阅，禁止外泄以及用于其他的商业目的
-*/
+
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -12,11 +6,11 @@ using System.Runtime.InteropServices;
 // 有关程序集的常规信息通过以下
 // 特性集控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("WebInterface")]
+[assembly: AssemblyTitle("LoserServer")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Sky123.Org")]
-[assembly: AssemblyProduct("WebInterface")]
+[assembly: AssemblyProduct("LoserServer")]
 [assembly: AssemblyCopyright("Copyright © Sky123.Org 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

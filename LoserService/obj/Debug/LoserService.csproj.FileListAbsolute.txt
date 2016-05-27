@@ -1,0 +1,12 @@
+D:\FTP\boyy\sln\Chat\LoserService\bin\Debug\LoserService.dll
+D:\FTP\boyy\sln\Chat\LoserService\bin\Debug\LoserService.pdb
+D:\FTP\boyy\sln\Chat\LoserService\obj\Debug\LoserService.dll
+D:\FTP\boyy\sln\Chat\LoserService\obj\Debug\LoserService.pdb
+D:\FTP\boyy\sln\Chat\LoserService\bin\Debug\LoserModel.dll
+D:\FTP\boyy\sln\Chat\LoserService\bin\Debug\LoserServer.dll
+D:\FTP\boyy\sln\Chat\LoserService\bin\Debug\LoserUtil.dll
+D:\FTP\boyy\sln\Chat\LoserService\bin\Debug\Newtonsoft.Json.dll
+D:\FTP\boyy\sln\Chat\LoserService\bin\Debug\LoserModel.pdb
+D:\FTP\boyy\sln\Chat\LoserService\bin\Debug\LoserUtil.pdb
+D:\FTP\boyy\sln\Chat\LoserService\bin\Debug\LoserServer.pdb
+D:\FTP\boyy\sln\Chat\LoserService\obj\Debug\LoserService.csprojResolveAssemblyReference.cache

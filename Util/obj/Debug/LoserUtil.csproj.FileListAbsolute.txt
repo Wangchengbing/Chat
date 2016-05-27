@@ -1,0 +1,4 @@
+D:\FTP\boyy\sln\Chat\Util\bin\Debug\LoserUtil.dll
+D:\FTP\boyy\sln\Chat\Util\bin\Debug\LoserUtil.pdb
+D:\FTP\boyy\sln\Chat\Util\obj\Debug\LoserUtil.dll
+D:\FTP\boyy\sln\Chat\Util\obj\Debug\LoserUtil.pdb

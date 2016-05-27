@@ -5,7 +5,7 @@ using System.Net;
 using System.Text;
 using System.Web;
 
-namespace WebInterface
+namespace LoserServer
 {
     /// <summary>
     /// 模拟请求

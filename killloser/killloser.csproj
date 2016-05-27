@@ -50,7 +50,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -66,6 +68,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="handler.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LoserService\LoserService.csproj">
+      <Project>{00C1F262-E1C7-42B8-9994-7BABC4179106}</Project>
+      <Name>LoserService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\LoserModel.csproj">
+      <Project>{B697501B-EDA8-492B-8EA3-792310FED43A}</Project>
+      <Name>LoserModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebInterface\LoserServer.csproj">
+      <Project>{65C73F79-DD1F-4AAA-B460-73DC997447F8}</Project>
+      <Name>LoserServer</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

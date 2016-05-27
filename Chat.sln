@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{B697501B-EDA8-492B-8EA3-792310FED43A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoserModel", "Model\LoserModel.csproj", "{B697501B-EDA8-492B-8EA3-792310FED43A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "killloser", "killloser\killloser.csproj", "{9F5ECDC1-E08A-48CA-A492-BAC9CD24E36F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETCP.Client.WebInterface", "WebInterface\ETCP.Client.WebInterface.csproj", "{65C73F79-DD1F-4AAA-B460-73DC997447F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoserServer", "WebInterface\LoserServer.csproj", "{65C73F79-DD1F-4AAA-B460-73DC997447F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoserUtil", "Util\LoserUtil.csproj", "{A54CE508-CFC8-4BCB-824F-3B320396B030}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoserService", "LoserService\LoserService.csproj", "{00C1F262-E1C7-42B8-9994-7BABC4179106}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,14 @@ Global
 		{65C73F79-DD1F-4AAA-B460-73DC997447F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65C73F79-DD1F-4AAA-B460-73DC997447F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65C73F79-DD1F-4AAA-B460-73DC997447F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A54CE508-CFC8-4BCB-824F-3B320396B030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A54CE508-CFC8-4BCB-824F-3B320396B030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A54CE508-CFC8-4BCB-824F-3B320396B030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A54CE508-CFC8-4BCB-824F-3B320396B030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00C1F262-E1C7-42B8-9994-7BABC4179106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00C1F262-E1C7-42B8-9994-7BABC4179106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00C1F262-E1C7-42B8-9994-7BABC4179106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00C1F262-E1C7-42B8-9994-7BABC4179106}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

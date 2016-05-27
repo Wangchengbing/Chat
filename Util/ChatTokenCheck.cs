@@ -6,7 +6,7 @@ using System.IO;
 using System.Text;
 using System.Xml;
 using System.Web.Security;
-namespace Model
+namespace LoserUtil
 {
     public static class ChatTokenCheck
     {

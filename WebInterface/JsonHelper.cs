@@ -2,7 +2,7 @@ using System.IO;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace WebInterface
+namespace LoserServer
 {
     public static class JsonHelper
     {

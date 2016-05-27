@@ -1,0 +1,8 @@
+D:\FTP\boyy\sln\Chat\WebInterface\bin\Debug\LoserServer.dll
+D:\FTP\boyy\sln\Chat\WebInterface\bin\Debug\LoserServer.pdb
+D:\FTP\boyy\sln\Chat\WebInterface\bin\Debug\LoserModel.dll
+D:\FTP\boyy\sln\Chat\WebInterface\bin\Debug\Newtonsoft.Json.dll
+D:\FTP\boyy\sln\Chat\WebInterface\bin\Debug\LoserModel.pdb
+D:\FTP\boyy\sln\Chat\WebInterface\obj\Debug\LoserServer.csprojResolveAssemblyReference.cache
+D:\FTP\boyy\sln\Chat\WebInterface\obj\Debug\LoserServer.dll
+D:\FTP\boyy\sln\Chat\WebInterface\obj\Debug\LoserServer.pdb
