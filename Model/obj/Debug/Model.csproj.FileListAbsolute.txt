@@ -1,0 +1,4 @@
+D:\FTP\boyy\sln\Chat\Model\bin\Debug\Model.dll
+D:\FTP\boyy\sln\Chat\Model\bin\Debug\Model.pdb
+D:\FTP\boyy\sln\Chat\Model\obj\Debug\Model.dll
+D:\FTP\boyy\sln\Chat\Model\obj\Debug\Model.pdb

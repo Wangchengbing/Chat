@@ -1,0 +1,4 @@
+D:\FTP\boyy\sln\Chat\killloser\bin\killloser.dll
+D:\FTP\boyy\sln\Chat\killloser\bin\killloser.pdb
+D:\FTP\boyy\sln\Chat\killloser\obj\Debug\killloser.dll
+D:\FTP\boyy\sln\Chat\killloser\obj\Debug\killloser.pdb

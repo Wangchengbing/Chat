@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\FTP\boyyVersion\killloser1.0.0.1" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/killloser.dll" publishTime="05/27/2016 17:32:46" />
+    <file relUrl="bin/killloser.pdb" publishTime="05/27/2016 17:32:46" />
+    <file relUrl="handler.ashx" publishTime="05/27/2016 17:21:02" />
+    <file relUrl="Web.config" publishTime="05/27/2016 17:37:25" />
+  </publishProfile>
+</publishData>
