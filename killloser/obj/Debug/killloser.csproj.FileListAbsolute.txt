@@ -23,3 +23,5 @@ D:\GitHub\Chat\killloser\bin\LoserServer.pdb
 D:\GitHub\Chat\killloser\obj\Debug\killloser.csprojResolveAssemblyReference.cache
 D:\GitHub\Chat\killloser\obj\Debug\killloser.dll
 D:\GitHub\Chat\killloser\obj\Debug\killloser.pdb
+D:\GitHub\Chat\killloser\bin\LoserUtil.dll
+D:\GitHub\Chat\killloser\bin\LoserUtil.pdb

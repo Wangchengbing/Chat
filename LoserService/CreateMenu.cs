@@ -7,12 +7,13 @@ using LoserModel;
 using LoserServer;
 using LoserModel.Request;
 using LoserModel.Response;
+using LoserModel.replyModel;
 
 namespace LoserService
 {
-    public class CreateMenu : ServiceBase
+    public class CreateMenu
     {
-        public override string Execute(string json)
+        public string Execute(string json)
         {
 
             //妈的，没权限尼玛~  报错40016.谁知道没有这权限啊。草
@@ -75,5 +76,6 @@ namespace LoserService
             }
             return "";
         }
+        
     }
 }

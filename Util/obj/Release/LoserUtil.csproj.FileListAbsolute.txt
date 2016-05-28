@@ -1,0 +1,8 @@
+D:\GitHub\Chat\Util\bin\Release\LoserUtil.dll
+D:\GitHub\Chat\Util\bin\Release\LoserUtil.pdb
+D:\GitHub\Chat\Util\bin\Release\LoserModel.dll
+D:\GitHub\Chat\Util\bin\Release\Newtonsoft.Json.dll
+D:\GitHub\Chat\Util\bin\Release\LoserModel.pdb
+D:\GitHub\Chat\Util\obj\Release\LoserUtil.csprojResolveAssemblyReference.cache
+D:\GitHub\Chat\Util\obj\Release\LoserUtil.dll
+D:\GitHub\Chat\Util\obj\Release\LoserUtil.pdb

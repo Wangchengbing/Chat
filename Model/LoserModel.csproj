@@ -46,23 +46,35 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Enum\Buttontype.cs" />
+    <Compile Include="Enum\InfoType.cs" />
+    <Compile Include="Enum\RequestType.cs" />
     <Compile Include="MenuInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Request\RequestImage.cs" />
-    <Compile Include="Request\RequestEventSubscribe.cs" />
-    <Compile Include="Request\RequestEventClick.cs" />
+    <Compile Include="InfoBase.cs" />
+    <Compile Include="replyModel\RequestEventSubscribe.cs" />
+    <Compile Include="replyModel\RequestEventClick.cs" />
+    <Compile Include="replyModel\RequestVoice.cs" />
+    <Compile Include="replyModel\RequestMusic.cs" />
+    <Compile Include="replyModel\RequestArticles.cs" />
+    <Compile Include="replyModel\replyBase.cs" />
+    <Compile Include="replyModel\RequestVideo.cs" />
+    <Compile Include="replyModel\RequestImage.cs" />
     <Compile Include="Request\RQBase.cs" />
-    <Compile Include="Request\RequestText.cs" />
+    <Compile Include="replyModel\RequestText.cs" />
     <Compile Include="Response\RPBase.cs" />
     <Compile Include="Response\RPGetaccess_token.cs" />
     <Compile Include="Response\RPGetIp_list.cs" />
     <Compile Include="ShareData.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Util\LoserUtil.csproj">
-      <Project>{A54CE508-CFC8-4BCB-824F-3B320396B030}</Project>
-      <Name>LoserUtil</Name>
-    </ProjectReference>
+    <Content Include="XML\XMLArticles.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="XML\XMLMusic.xml" />
+    <Content Include="XML\XMLVideo.xml" />
+    <Content Include="XML\XMLVoice.xml" />
+    <Content Include="XML\XMLImage.xml" />
+    <Content Include="XML\XMLContent.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

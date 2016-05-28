@@ -1,0 +1,5 @@
+D:\GitHub\Chat\Model\bin\Release\LoserModel.dll
+D:\GitHub\Chat\Model\bin\Release\LoserModel.pdb
+D:\GitHub\Chat\Model\bin\Release\Newtonsoft.Json.dll
+D:\GitHub\Chat\Model\obj\Release\LoserModel.dll
+D:\GitHub\Chat\Model\obj\Release\LoserModel.pdb

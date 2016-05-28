@@ -42,8 +42,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChatTokenCheck.cs" />
-    <Compile Include="Enum\RequestType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SerializeHelper.cs" />
+    <Compile Include="TracingHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Model\LoserModel.csproj">
+      <Project>{b697501b-eda8-492b-8ea3-792310fed43a}</Project>
+      <Name>LoserModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Enum\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

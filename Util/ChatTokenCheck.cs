@@ -6,6 +6,8 @@ using System.IO;
 using System.Text;
 using System.Xml;
 using System.Web.Security;
+using System.Xml.Serialization;
+
 namespace LoserUtil
 {
     public static class ChatTokenCheck
@@ -111,5 +113,6 @@ namespace LoserUtil
 
         #endregion
 
+        
     }
 }

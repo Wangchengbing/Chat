@@ -1,0 +1,76 @@
+[Info]
+[[Message]=GET
+[Havetime]=2016-05-28 18:16:10:893
+[Havetime]=2016-05-28 18:16:10:962]
+[Time]=2016-05-28 18:16:10:967
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+[Message]=GET
+[Havetime]=2016-05-28 18:16:10:893
+[Havetime]=2016-05-28 18:16:10:962
+
+[Info]
+[[Message]=Get 
+[Havetime]=2016-05-28 18:16:10:963
+[Havetime]=2016-05-28 18:16:10:963]
+[Time]=2016-05-28 18:16:10:967
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+[Message]=Get 
+[Havetime]=2016-05-28 18:16:10:963
+[Havetime]=2016-05-28 18:16:10:963
+
+[Info]
+[[Message]=检验access_token完毕
+[Havetime]=2016-05-28 18:16:11:312
+[Havetime]=2016-05-28 18:16:11:312]
+[Time]=2016-05-28 18:16:11:314
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+[Message]=检验access_token完毕
+[Havetime]=2016-05-28 18:16:11:312
+[Havetime]=2016-05-28 18:16:11:312
+
+[Error]
+[[Message]=缺少根元素。
+[Havetime]=2016-05-28 18:16:11:335]
+[Time]=2016-05-28 18:16:11:337
+[className]=LoserUtil.SerializeHelper
+[ExceptionMessage]=缺少根元素。
+[ExceptionStackTrace]=   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.LoadXml(String xml)
+   在 LoserUtil.SerializeHelper.XmlDeserialize(String xml) 位置 D:\GitHub\Chat\Util\SerializeHelper.cs:行号 73
+[Message]=缺少根元素。
+[Havetime]=2016-05-28 18:16:11:335
+
+[Error]
+[[Message]=未将对象引用设置到对象的实例。
+[Havetime]=2016-05-28 18:16:11:352]
+[Time]=2016-05-28 18:16:11:354
+[className]=LoserService.WeixinApiDispatch
+[ExceptionMessage]=未将对象引用设置到对象的实例。
+[ExceptionStackTrace]=   在 LoserService.WeixinApiDispatch.Execute(String postStr) 位置 D:\GitHub\Chat\LoserService\WeixinApiDispatch.cs:行号 22
+[Message]=未将对象引用设置到对象的实例。
+[Havetime]=2016-05-28 18:16:11:352
+
+[Info]
+[[Message]=业务处理完毕  KillLose
+                                     无梦想不青春
+[Havetime]=2016-05-28 18:16:11:352
+[Havetime]=2016-05-28 18:16:11:352]
+[Time]=2016-05-28 18:16:11:355
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+[Message]=业务处理完毕  KillLose
+                                     无梦想不青春
+[Havetime]=2016-05-28 18:16:11:352
+[Havetime]=2016-05-28 18:16:11:352
+

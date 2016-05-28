@@ -7,12 +7,13 @@ using LoserModel;
 using LoserServer;
 using LoserModel.Request;
 using LoserModel.Response;
+using LoserModel.replyModel;
 
 namespace LoserService
 {
-    public class GetAccess_token : ServiceBase
+    public class GetAccess_token
     {
-        public override string Execute(string json)
+        public string Execute(string json)
         {
             bool connect = false;
             //组建参数字典
@@ -27,5 +28,6 @@ namespace LoserService
                 ShareData.access_token = tokenInfo.access_token;
             return "";
         }
+        
     }
 }

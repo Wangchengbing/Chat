@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using LoserUtil.Enum;
 
-namespace LoserModel.Request
+namespace LoserModel.replyModel
 {
     /// <summary>
-    /// 订阅请求事件信息实体
+    /// 文本信息实体
     /// </summary>
-    public class RequestEventSubscribe : RQBase
+    public class RequestImage : replyBase
     {
-        
+        public VoiceImage Image = new VoiceImage();
     }
 }

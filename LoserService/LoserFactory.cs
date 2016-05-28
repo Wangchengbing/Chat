@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using LoserUtil.Enum;
+using LoserModel.Enum;
+using LoserModel.replyModel;
 
 namespace LoserService
 {
@@ -12,14 +14,17 @@ namespace LoserService
     public class LoserFactory
     { 
 
-        public static ServiceBase CreateServiceType(string strType)
+        public static ServiceBase CreateServiceType(string info)
         {
-            switch (strType)
+            switch (info)
             {
-                case "0"://获取Access_token
-                    return new GetAccess_token();
+                case InfoType.text://回复文字
+                    return new replyText();
+
+                case InfoType.image://回复文字
+                    return new replyImage();
                 default:
-                    return new GetAccess_token();
+                    return new replyText();
             }
         }
     }

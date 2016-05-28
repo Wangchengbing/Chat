@@ -8,6 +8,8 @@ using System.Configuration;
 using System.Web.Security;
 using LoserModel;
 using LoserService;
+using LoserUtil;
+
 namespace killloser
 {
     /// <summary>
@@ -17,7 +19,9 @@ namespace killloser
     {
         public void ProcessRequest(HttpContext context)
         {
+            //TracingHelper.Initialization(1, 1, 1, 1, "Log", "", "");
             string postString = string.Empty;
+            TracingHelper.Info(HttpContext.Current.Request.HttpMethod.ToUpper());
             if (HttpContext.Current.Request.HttpMethod.ToUpper() == "POST")
             {
                 using (Stream stream = HttpContext.Current.Request.InputStream)
@@ -29,15 +33,13 @@ namespace killloser
 
                 if (!string.IsNullOrEmpty(postString))
                 {
-                    //1.检验access_token
-                    if (string.IsNullOrEmpty(ShareData.access_token))
-                    {
-                        Execute(postString);
-                    }
+                    TracingHelper.Info("Post " + postString);
+                    Execute(postString);
                 }
             }
             else if (HttpContext.Current.Request.HttpMethod.ToUpper() == "GET")
             {
+                TracingHelper.Info("Get " + postString);
                 Execute(postString);
             }
             else
@@ -107,12 +109,14 @@ namespace killloser
         /// <param name="postString"></param>
         private void Execute(string postString)
         {
-            
+
             //1.检验access_token
             new GetIp_list().Execute("");
+            TracingHelper.Info("检验access_token完毕");
             //2.业务处理
             WeixinApiDispatch dispatch = new WeixinApiDispatch();
             string responseContent = dispatch.Execute(postString);
+            TracingHelper.Info("业务处理完毕  " + responseContent);
             //3.返回微信服务器
             HttpContext.Current.Response.ContentEncoding = Encoding.UTF8;
             HttpContext.Current.Response.Write(responseContent);

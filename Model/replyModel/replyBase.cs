@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using LoserUtil.Enum;
 
-namespace LoserModel.Request
+namespace LoserModel.replyModel
 {
     /// <summary>
-    /// 文本信息实体
+    /// 回复信息实体基类
     /// </summary>
-    public class RequestText : RQBase
+    public class replyBase : InfoBase
     {
         
+
     }
 }

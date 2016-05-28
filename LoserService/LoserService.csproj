@@ -45,6 +45,8 @@
     <Compile Include="IWeixinAction.cs" />
     <Compile Include="LoserFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="replyService\replyImage.cs" />
+    <Compile Include="replyService\replyText.cs" />
     <Compile Include="ServiceBase.cs" />
     <Compile Include="GetIp_list.cs" />
     <Compile Include="WeixinApiDispatch.cs" />
