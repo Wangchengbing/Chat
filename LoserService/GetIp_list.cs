@@ -33,7 +33,7 @@ namespace LoserService
             }
             catch (Exception ex)
             {
-                TracingHelper.Error(ex, typeof(GetIp_list), ex.Message);
+                TracingHelper.Error(ex.Message);
             }
             return "";
         }

@@ -18,7 +18,7 @@ namespace LoserUtil
         private static bool _openInfoTrace = true;
         
 
-        private static string info = "[{0}]\r\n[{5}]\r\n[Time]={1}\r\n[className]={2}\r\n[ExceptionMessage]={3}\r\n[ExceptionStackTrace]={4}\r\n{5}\r\n\r\n";
+        private static string info = "[{0}]\r\n[{5}]\r\n[Time]={1}\r\n[className]={2}\r\n[ExceptionMessage]={3}\r\n[ExceptionStackTrace]={4}\r\n\r\n";
 
         #endregion
 
@@ -52,7 +52,6 @@ namespace LoserUtil
         /// <param name="message">附加的信息</param>
         public static void Error(Type classType, string message)
         {
-            message += "\r\n[Havetime]=" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss:fff");
             Error(null, classType, message);
         }
 
@@ -62,7 +61,6 @@ namespace LoserUtil
         /// <param name="message">附加的信息</param>
         public static void Error(string message)
         {
-            message += "\r\n[Havetime]=" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss:fff");
             Error(null, null, message);
         }
 
@@ -70,16 +68,6 @@ namespace LoserUtil
 
         #region Info 可以设置开启或者关闭
 
-        /// <summary>
-        /// 记录非异常的日志，主要为了检查关键流程是否走到
-        /// </summary>
-        /// <param name="message">日志内容</param>
-        public static void Info(string message)
-        {
-            if (!_openInfoTrace) return;
-            message += "\r\n[Havetime]=" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss:fff");
-            Info(null, message);
-        }
 
         public static void Warning(string message)
         {
@@ -92,11 +80,18 @@ namespace LoserUtil
         /// <summary>
         /// 记录非异常的日志，主要为了检查关键流程是否走到
         /// </summary>
+        /// <param name="message">日志内容</param>
+        public static void Info(string message)
+        {
+            Info(null, message);
+        }
+        /// <summary>
+        /// 记录非异常的日志，主要为了检查关键流程是否走到
+        /// </summary>
         /// <param name="typeName">所在的类的类型，如typeof(frmlogin)</param>
         /// <param name="message">日志内容</param>
         public static void Info(Type typeName, string message)
         {
-            if (!_openInfoTrace) return;
             message += "\r\n[Havetime]=" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss:fff");
             Trace trace = new Trace() { ex = null, traceType = TraceType.Info, classType = typeName, message = message };
             add(trace);
@@ -232,13 +227,15 @@ namespace LoserUtil
             if (trace == null) return null;
             try
             {
-                return string.Format(info, trace.traceType.ToString(),
+                string str=
+                 string.Format(info, trace.traceType.ToString(),
                     DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss:fff"),
                     trace.classType == null ? "" : trace.classType.FullName,
                     trace.ex == null ? "" : trace.ex.Message,
                     trace.ex == null ? "" : trace.ex.StackTrace,
                     string.IsNullOrEmpty(trace.message) ? "" : "[Message]=" + trace.message
                      );
+                return str;
             }
             catch (Exception ex) { }
             return "";

@@ -1,0 +1,41 @@
+[Info]
+[[Message]=Get 
+[Havetime]=2016-05-28 23:58:25:008]
+[Time]=2016-05-28 23:58:25:061
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Info]
+[[Message]=检验access_token完毕
+[Havetime]=2016-05-28 23:58:26:811]
+[Time]=2016-05-28 23:58:26:812
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Error]
+[[Message]=缺少根元素。
+[Havetime]=2016-05-28 23:58:26:836]
+[Time]=2016-05-28 23:58:26:838
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Error]
+[[Message]=未将对象引用设置到对象的实例。
+[Havetime]=2016-05-28 23:58:26:852]
+[Time]=2016-05-28 23:58:26:853
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Info]
+[[Message]=业务处理完毕  KillLose
+                                     无梦想不青春
+[Havetime]=2016-05-28 23:58:26:852]
+[Time]=2016-05-28 23:58:26:853
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+

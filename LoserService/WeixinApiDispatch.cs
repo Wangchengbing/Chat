@@ -47,7 +47,7 @@ namespace LoserService
             }
             catch (Exception ex)
             {
-                TracingHelper.Error(ex, typeof(WeixinApiDispatch), ex.Message);
+                TracingHelper.Error(ex.Message);
             }
             return content;
         }
@@ -74,7 +74,7 @@ namespace LoserService
             }
             catch (Exception ex)
             {
-                TracingHelper.Error(ex,typeof(WeixinApiDispatch), ex.Message);
+                TracingHelper.Error(ex.Message);
             }
             // string xml = SerializeHelper.XmlSerialize<RequestImage>(imgeInfo);
             TracingHelper.Info(" HandleImage  " + xml);
@@ -103,7 +103,7 @@ namespace LoserService
             }
             catch (Exception ex)
             {
-                TracingHelper.Error(ex, typeof(WeixinApiDispatch), ex.Message);
+                TracingHelper.Error( ex.Message);
             }
             TracingHelper.Info("   HandleVideo" + xml);
             return xml;
@@ -131,7 +131,7 @@ namespace LoserService
             }
             catch (Exception ex)
             {
-                TracingHelper.Error(ex, typeof(WeixinApiDispatch), ex.Message);
+                TracingHelper.Error(ex.Message);
             }
             TracingHelper.Info("  HandleVoice " + xml);
             return xml;
@@ -154,7 +154,7 @@ namespace LoserService
             }
             catch (Exception ex)
             {
-                TracingHelper.Error(ex, typeof(WeixinApiDispatch), ex.Message);
+                TracingHelper.Error(ex.Message);
             }
             TracingHelper.Info(" HandleText  " + xml);
             return xml;

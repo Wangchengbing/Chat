@@ -19,10 +19,8 @@ namespace killloser
     {
         public void ProcessRequest(HttpContext context)
         {
-            
             //TracingHelper.Initialization(1, 1, 1, 1, "Log", "", "");
             string postString = string.Empty;
-            TracingHelper.Info(HttpContext.Current.Request.HttpMethod.ToUpper());
             if (HttpContext.Current.Request.HttpMethod.ToUpper() == "POST")
             {
                 using (Stream stream = HttpContext.Current.Request.InputStream)

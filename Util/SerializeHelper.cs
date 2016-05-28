@@ -121,7 +121,7 @@ namespace LoserUtil
             }
             catch (Exception ex)
             {
-                TracingHelper.Error(ex, typeof(SerializeHelper), ex.Message);
+                TracingHelper.Error(ex.Message);
                 return null;
             }
         }
