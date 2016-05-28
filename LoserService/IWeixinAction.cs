@@ -19,12 +19,24 @@ namespace LoserService
         string HandleText(RQBase info);
 
         /// <summary>
-        /// 对图片请求信息进行处理
+        /// 对声音
         /// </summary>
         /// <param name="info">图片信息实体</param>
         /// <returns></returns>
-        string HandleMedia(RQBase info);
+        string HandleVoice(RQBase info);
 
+        /// <summary>
+        /// 对视频
+        /// </summary>
+        /// <param name="info"></param>
+        /// <returns></returns>
+        string HandleVideo(RQBase info);
+        /// <summary>
+        /// 对图片
+        /// </summary>
+        /// <param name="info"></param>
+        /// <returns></returns>
+        string HandleImage(RQBase info);
 
         #region //暂时不用
 

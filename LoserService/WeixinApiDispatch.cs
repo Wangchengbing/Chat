@@ -22,18 +22,25 @@ namespace LoserService
                 TracingHelper.Info(rqInfo.ToUserName + " " + rqInfo.FromUserName);
                 if (rqInfo != null)
                 {
+                    
                     switch (rqInfo.MsgType)
                     {
+                        //文本、位置、链接。回复默认
                         case InfoType.text:
+                        case InfoType.location:
+                        case InfoType.link:
                             content = HandleText(rqInfo);
                             break;
                         case InfoType.image:
+                            content = HandleImage(rqInfo);
+                            break;
                         case InfoType.voice:
+                            content = HandleVoice(rqInfo);
+                            break;
+                       
                         case InfoType.video:
                         case InfoType.shortvideo:
-                        case InfoType.location:
-                        case InfoType.link:
-                            content = HandleMedia(rqInfo);
+                            content = HandleVideo(rqInfo);
                             break;
                     }
                 }
@@ -45,13 +52,16 @@ namespace LoserService
             return content;
         }
 
-        public string HandleMedia(RQBase info)
+        /// <summary>
+        /// 返回图片
+        /// </summary>
+        /// <param name="info"></param>
+        /// <returns></returns>
+        public string HandleImage(RQBase info)
         {
             //发送什么，返回什么
 
             string xml = string.Empty;
-            //1.回复文字
-            //2.回复图片
             try
             {
                 RequestImage imgeInfo = new RequestImage();
@@ -60,15 +70,70 @@ namespace LoserService
                 imgeInfo.CreateTime = SerializeHelper.longtime().ToString();
                 imgeInfo.MsgType = InfoType.image;
                 imgeInfo.Image = new VoiceImage() { MediaId = info.MediaId };
-                ServiceBase service = LoserFactory.CreateServiceType(imgeInfo.MsgType);
-                xml = service.ReplyExecute(imgeInfo);
+                xml = new replyImage().ReplyExecute(imgeInfo);
             }
             catch (Exception ex)
             {
                 TracingHelper.Error(ex,typeof(WeixinApiDispatch), ex.Message);
             }
             // string xml = SerializeHelper.XmlSerialize<RequestImage>(imgeInfo);
-            TracingHelper.Info(" HandleMedia  "+xml);
+            TracingHelper.Info(" HandleImage  " + xml);
+            return xml;
+        }
+
+        /// <summary>
+        /// 返回视频
+        /// </summary>
+        /// <param name="info"></param>
+        /// <returns></returns>
+        public string HandleVideo(RQBase info)
+        {
+            //发送什么，返回什么
+
+            string xml = string.Empty;
+            try
+            {
+                RequestVideo video = new RequestVideo();
+                video.FromUserName = info.ToUserName;
+                video.ToUserName = info.FromUserName;
+                video.CreateTime = SerializeHelper.longtime().ToString();
+                video.MsgType = InfoType.video;
+                video.Video = new Video() { MediaId = info.MediaId, Title= info.Title, Description=info.Description };
+                xml = new replyVideo().ReplyExecute(video);
+            }
+            catch (Exception ex)
+            {
+                TracingHelper.Error(ex, typeof(WeixinApiDispatch), ex.Message);
+            }
+            TracingHelper.Info("   HandleVideo" + xml);
+            return xml;
+        }
+
+        /// <summary>
+        /// 返回声音
+        /// </summary>
+        /// <param name="info"></param>
+        /// <returns></returns>
+        public string HandleVoice(RQBase info)
+        {
+            //发送什么，返回什么
+
+            string xml = string.Empty;
+            try
+            {
+                RequestVoice voice = new RequestVoice();
+                voice.FromUserName = info.ToUserName;
+                voice.ToUserName = info.FromUserName;
+                voice.CreateTime = SerializeHelper.longtime().ToString();
+                voice.MsgType = InfoType.voice;
+                voice.Voice = new VoiceImage() { MediaId = info.MediaId };
+                xml = new replyVoice().ReplyExecute(voice);
+            }
+            catch (Exception ex)
+            {
+                TracingHelper.Error(ex, typeof(WeixinApiDispatch), ex.Message);
+            }
+            TracingHelper.Info("  HandleVoice " + xml);
             return xml;
         }
 
@@ -85,14 +150,12 @@ namespace LoserService
                 textInfo.CreateTime = SerializeHelper.longtime().ToString();
                 textInfo.MsgType = InfoType.text;
                 textInfo.Content = info.Content;
-                ServiceBase service = LoserFactory.CreateServiceType(textInfo.MsgType);
-                xml = service.ReplyExecute(textInfo);
+                xml = new replyText().ReplyExecute(textInfo);
             }
             catch (Exception ex)
             {
                 TracingHelper.Error(ex, typeof(WeixinApiDispatch), ex.Message);
             }
-            //string xml = SerializeHelper.XmlSerialize<RequestText>(textInfo);
             TracingHelper.Info(" HandleText  " + xml);
             return xml;
 

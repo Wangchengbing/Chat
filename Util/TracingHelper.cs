@@ -1,10 +1,3 @@
-/**
-*@项目名称: 停车场岗亭管理软件系统
-*@文件名称: TracingHelper
-*@Date: 2015-06-11 10:24:00
-*@Copyright: 2015 悦畅科技有限公司. All rights reserved.
-*注意：本内容仅限于悦畅科技有限公司内部传阅，禁止外泄以及用于其他的商业目的
-*/
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -16,36 +9,14 @@ namespace LoserUtil
     public class TracingHelper
     {
         private static string LogPath = System.AppDomain.CurrentDomain.BaseDirectory+"//Log";
-        //private static int LocalTraceLevel;
-        //private static int TraceLevel;
-        //private static int Parking;
-        //private static int ParkingBox;
-
-        //private static string CommVersion;
-        //private static string AsblyVersion;
-
-        public static void Initialization(int _LocalTraceLevel, int _TraceLevel, int _Parking, int _ParkingBox, string _LogPath, string _CommVersion, string _AsblyVersion)
-        {
-            LogPath = System.AppDomain.CurrentDomain.BaseDirectory;
-            //LocalTraceLevel = _LocalTraceLevel;
-            //TraceLevel = _TraceLevel;
-            //Parking = _Parking;
-            //ParkingBox = _ParkingBox;
-
-            //CommVersion = _CommVersion;
-            //AsblyVersion = _AsblyVersion;
-        }
+        
         #region static
 
         private static Queue<Trace> tracingQueue = new Queue<Trace>();
         private static object rootLock = new object();
         private static bool running = false;
         private static bool _openInfoTrace = true;
-
-        public static void SetTracingSwitch(bool openInfoTrace)
-        {
-            _openInfoTrace = openInfoTrace;
-        }
+        
 
         private static string info = "[{0}]\r\n[{5}]\r\n[Time]={1}\r\n[className]={2}\r\n[ExceptionMessage]={3}\r\n[ExceptionStackTrace]={4}\r\n{5}\r\n\r\n";
 

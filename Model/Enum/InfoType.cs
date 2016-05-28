@@ -23,5 +23,9 @@ namespace LoserModel.Enum
         public const string link = "link";
         //音乐信息
         public const string music = "music";
+        /// <summary>
+        /// 事件类型，subscribe(订阅)、unsubscribe(取消订阅)
+        /// </summary>
+        public const string subscribe = "event";
     }
 }

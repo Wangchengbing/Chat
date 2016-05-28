@@ -28,7 +28,7 @@ namespace LoserService
   <Content><![CDATA[{4}]]></Content>
 </xml>";
             RequestText json1 = json as RequestText;
-            xml = string.Format(xml, json.ToUserName, json.FromUserName, json.CreateTime, json.MsgType, "你发的文字是：" + json1.Content);
+            xml = string.Format(xml, json.ToUserName, json.FromUserName, json.CreateTime, json.MsgType,json1.Content);
             return xml;
         }
     }
