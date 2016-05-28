@@ -32,23 +32,13 @@ namespace killloser
                     //1.检验access_token
                     if (string.IsNullOrEmpty(ShareData.access_token))
                     {
-                        //重新请求access_token
-                        new GetAccess_token().Execute("");
+                        Execute(postString);
                     }
                 }
             }
             else if (HttpContext.Current.Request.HttpMethod.ToUpper() == "GET")
             {
-
-                //1.检验access_token
-                if (string.IsNullOrEmpty(ShareData.access_token))
-                {
-                    //重新请求access_token
-                    new GetAccess_token().Execute("");
-                }
-                new GetIp_list().Execute("");
-                //Execute(postString);
-
+                Execute(postString);
             }
             else
             {
@@ -99,17 +89,6 @@ namespace killloser
                 hash = hash.ToLower();
 
 
-                ////4.SHA1散列
-                //SHA1 sha = new SHA1CryptoServiceProvider();
-                ////将mystr转换成byte[]
-                //ASCIIEncoding enc = new ASCIIEncoding();
-                //byte[] dataToHash = enc.GetBytes(tmpStr);
-                ////Hash运算
-                //byte[] dataHashed = sha.ComputeHash(dataToHash);
-                ////将运算结果转换成string
-                //string hash = BitConverter.ToString(dataHashed).Replace("-", "");
-                //string hash1 = BitConverter.ToString(dataHashed);
-
                 if (signature.Equals(hash))
                     return true;
                 else
@@ -128,8 +107,15 @@ namespace killloser
         /// <param name="postString"></param>
         private void Execute(string postString)
         {
-
-            ServiceBase service = LoserFactory.CreateServiceType(postString);
+            
+            //1.检验access_token
+            new GetIp_list().Execute("");
+            //2.业务处理
+            WeixinApiDispatch dispatch = new WeixinApiDispatch();
+            string responseContent = dispatch.Execute(postString);
+            //3.返回微信服务器
+            HttpContext.Current.Response.ContentEncoding = Encoding.UTF8;
+            HttpContext.Current.Response.Write(responseContent);
         }
 
         public bool IsReusable

@@ -7,7 +7,6 @@ using LoserModel;
 using LoserServer;
 using LoserModel.Request;
 using LoserModel.Response;
-using LoserUtil.Enum;
 
 namespace LoserService
 {
@@ -22,7 +21,7 @@ namespace LoserService
             Para.Add("appid", ShareData.appid);
             Para.Add("secret", ShareData.secret);
 
-            string path = RequestPath.GetAccess_token(RequestType.access_token);
+            string path = RequestPath.CreatePath(RequestType.access_token);
             RPGetaccess_token tokenInfo = HTMLHelper.Get<RPGetaccess_token>(path, Para, ref connect);
             if (tokenInfo != null)
                 ShareData.access_token = tokenInfo.access_token;

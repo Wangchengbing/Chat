@@ -89,6 +89,7 @@ namespace LoserServer
             return JsonHelper.DeserializeOnly<T>(json);
         }
         #endregion
+
         /// <summary>
         /// Post数据
         /// </summary>
@@ -153,12 +154,13 @@ namespace LoserServer
             string str = "";
             Encoding encode = Encoding.GetEncoding(code_);
             byte[] arrB = encode.GetBytes(param_);
-            HttpWebRequest myReq = (HttpWebRequest)WebRequest.Create(url_);
+            HttpWebRequest myReq = WebRequest.Create(url_) as HttpWebRequest;
             myReq.Method = "POST";
             myReq.Timeout = 5000;
             myReq.ReadWriteTimeout = 5000;
             myReq.ContentType = "application/x-www-form-urlencoded";
-            myReq.UserAgent = "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.0.3705)";
+            //myReq.UserAgent = "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.0.3705)";
+            myReq.UserAgent = "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)";
             myReq.ContentLength = arrB.Length;
             try
             {
@@ -188,6 +190,7 @@ namespace LoserServer
             {
                 result_ = false;
             }
+            
             return str;
         }
 

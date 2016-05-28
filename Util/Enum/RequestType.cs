@@ -17,6 +17,9 @@ namespace LoserUtil.Enum
         //获取微信服务器IP地址
         public const string Ip_list = "getcallbackip";
         //api.weixin.qq.com/cgi-bin/getcallbackip?access_token=ACCESS_TOKEN
+        //建立自定义菜单
+        public const string createMenu = "menu/create";
+        //api.weixin.qq.com/cgi-bin/menu/create?access_token=ACCESS_TOKEN    POST（请使用https协议）
 
     }
 }

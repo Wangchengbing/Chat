@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\WebInterface\DLL\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
@@ -42,9 +45,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enum\Buttontype.cs" />
+    <Compile Include="MenuInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Request\RequestImage.cs" />
+    <Compile Include="Request\RequestEventSubscribe.cs" />
+    <Compile Include="Request\RequestEventClick.cs" />
     <Compile Include="Request\RQBase.cs" />
-    <Compile Include="Request\RQGetaccess_token.cs" />
+    <Compile Include="Request\RequestText.cs" />
     <Compile Include="Response\RPBase.cs" />
     <Compile Include="Response\RPGetaccess_token.cs" />
     <Compile Include="Response\RPGetIp_list.cs" />

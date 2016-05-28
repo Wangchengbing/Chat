@@ -6,8 +6,11 @@ using LoserUtil.Enum;
 
 namespace LoserModel.Request
 {
-    public class RQGetaccess_token : RQBase
+    /// <summary>
+    /// 菜单单击请求事件信息实体
+    /// </summary>
+    public class RequestEventClick : RQBase
     {
-        
+
     }
 }

@@ -10,3 +10,16 @@ D:\FTP\boyy\sln\Chat\killloser\bin\LoserModel.dll
 D:\FTP\boyy\sln\Chat\killloser\bin\LoserService.dll
 D:\FTP\boyy\sln\Chat\killloser\bin\LoserService.pdb
 D:\FTP\boyy\sln\Chat\killloser\bin\LoserModel.pdb
+D:\GitHub\Chat\killloser\bin\killloser.dll.config
+D:\GitHub\Chat\killloser\bin\killloser.dll
+D:\GitHub\Chat\killloser\bin\killloser.pdb
+D:\GitHub\Chat\killloser\bin\LoserModel.dll
+D:\GitHub\Chat\killloser\bin\LoserServer.dll
+D:\GitHub\Chat\killloser\bin\LoserService.dll
+D:\GitHub\Chat\killloser\bin\Newtonsoft.Json.dll
+D:\GitHub\Chat\killloser\bin\LoserService.pdb
+D:\GitHub\Chat\killloser\bin\LoserModel.pdb
+D:\GitHub\Chat\killloser\bin\LoserServer.pdb
+D:\GitHub\Chat\killloser\obj\Debug\killloser.csprojResolveAssemblyReference.cache
+D:\GitHub\Chat\killloser\obj\Debug\killloser.dll
+D:\GitHub\Chat\killloser\obj\Debug\killloser.pdb

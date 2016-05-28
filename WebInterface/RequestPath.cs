@@ -11,21 +11,11 @@ namespace LoserServer
     public class RequestPath
     {
         /// <summary>
-        /// 获取微信GetAccess_token
+        /// 组装路径
         /// </summary>
         /// <param name="name"></param>
         /// <returns></returns>
-        public static string GetAccess_token(string name)
-        {
-            string res = ShareData.ApiUrl + name;
-            return res;
-        }
-        /// <summary>
-        /// 微信GetIp_list
-        /// </summary>
-        /// <param name="name"></param>
-        /// <returns></returns>
-        public static string GetIp_list(string name)
+        public static string CreatePath(string name)
         {
             string res = ShareData.ApiUrl + name;
             return res;
