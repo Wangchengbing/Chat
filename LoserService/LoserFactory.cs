@@ -14,38 +14,19 @@ namespace LoserService
     /// </summary>
     public class LoserFactory
     { 
-
-        public static ServiceBase CreateServiceType(string info)
+        
+        public static ServiceBaseAPI CreateServiceType(string content)
         {
-            switch (info)
+            switch (content)
             {
-                case InfoType.text://回复文字
-                    return new replyText();
-
-                case InfoType.image://回复图片
-                    return new replyImage();
-                case InfoType.video://回复视频
-                    return new replyVideo();
-                case InfoType.voice://回复声音
-                    return new replyVoice();
+                case "美女"://输入美女
+                    return new Btgirl();
+                case "头条"://头条
+                    return new TouTiao();
+                case "笑话":
+                    return new Getjoke();
                 default:
-                    return new replyText();
-            }
-        }
-        public static ServiceBase CreateServiceType(RQBase info)
-        {
-            switch (info.MsgType)
-            {
-                case InfoType.text://回复文字
-                    return new replyText();
-                case InfoType.image://回复图片
-                    return new replyImage();
-                case InfoType.video://回复视频
-                    return new replyVideo();
-                case InfoType.voice://回复声音
-                    return new replyVoice();
-                default:
-                    return new replyText();
+                    return new DeepQA();
             }
         }
     }

@@ -10,33 +10,40 @@ namespace LoserModel.replyModel
     /// <summary>
     /// 图片信息实体
     /// </summary>
-    public class RequestArticles : replyBase
+    public class RpArticles  : replyBase
     {
         /// <summary>
-        /// 图文消息个数，限制为10条以内
+        /// 返回码
         /// </summary>
-        public int ArticleCount { get; set; }
-        public List<item> Articles = new List<replyModel.item>();
+        public string code { get; set; }
+        public string msg { get; set; }
+        public string text { get; set; }
+
+        public List<newslist> newslist = new List<newslist>();
 
     }
 
-    public class item
+    public class newslist
     {
         /// <summary>
         /// 图文消息标题
         /// </summary>
-        public string Title { get; set; }
+        public string title { get; set; }
+        /// <summary>
+        /// 文章发布时间
+        /// </summary>
+        public string ctime { get; set; }
         /// <summary>
         /// 图文消息描述
         /// </summary>
-        public string Description { get; set; }
+        public string description { get; set; }
         /// <summary>
         /// 图片链接，支持JPG、PNG格式，较好的效果为大图360*200，小图200*200
         /// </summary>
-        public string PicUrl { get; set; }
+        public string picUrl { get; set; }
         /// <summary>
         /// 点击图文消息跳转链接
         /// </summary>
-        public string Url { get; set; }
+        public string url { get; set; }
     }
 }

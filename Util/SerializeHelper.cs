@@ -76,17 +76,17 @@ namespace LoserUtil
                 //foreach (XmlNode xn in xnl)
                 //{
                 //    XmlElement xe = (XmlElement)xn;
-                    
-                    
+
+
                 //}
                 RQBase WxXmlModel = new RQBase();
-                WxXmlModel.ToUserName = rootElement.SelectSingleNode("ToUserName").InnerText;
-                WxXmlModel.FromUserName = rootElement.SelectSingleNode("FromUserName").InnerText;
-                WxXmlModel.CreateTime = rootElement.SelectSingleNode("CreateTime").InnerText;
-                WxXmlModel.MsgType = rootElement.SelectSingleNode("MsgType").InnerText;
+                WxXmlModel.xmlmsg.ToUserName = rootElement.SelectSingleNode("ToUserName").InnerText;
+                WxXmlModel.xmlmsg.FromUserName = rootElement.SelectSingleNode("FromUserName").InnerText;
+                WxXmlModel.xmlmsg.CreateTime = rootElement.SelectSingleNode("CreateTime").InnerText;
+                WxXmlModel.xmlmsg.MsgType = rootElement.SelectSingleNode("MsgType").InnerText;
                 WxXmlModel.MsgId = rootElement.SelectSingleNode("MsgId").InnerText;
 
-                switch (WxXmlModel.MsgType)
+                switch (WxXmlModel.xmlmsg.MsgType)
                 {
                     case InfoType.text:
                         WxXmlModel.Content = rootElement.SelectSingleNode("Content").InnerText;
@@ -109,10 +109,10 @@ namespace LoserUtil
                         WxXmlModel.Location_X = rootElement.SelectSingleNode("Location_X").InnerText;
                         WxXmlModel.Location_Y = rootElement.SelectSingleNode("Location_Y").InnerText;
                         WxXmlModel.Scale = rootElement.SelectSingleNode("Scale").InnerText;
-                        WxXmlModel.Label = rootElement.SelectSingleNode("Label").InnerText;
+                        WxXmlModel.Label = WxXmlModel.Content = rootElement.SelectSingleNode("Label").InnerText;
                         break;
                     case InfoType.link:
-                        WxXmlModel.Title = rootElement.SelectSingleNode("Title").InnerText;
+                        WxXmlModel.Title = WxXmlModel.Content = rootElement.SelectSingleNode("Title").InnerText;
                         WxXmlModel.Description = rootElement.SelectSingleNode("Description").InnerText;
                         WxXmlModel.Url = rootElement.SelectSingleNode("Url").InnerText;
                         break;
@@ -121,7 +121,7 @@ namespace LoserUtil
             }
             catch (Exception ex)
             {
-                TracingHelper.Error(ex.Message);
+                TracingHelper.Error(ex, typeof(SerializeHelper), ex.Message);
                 return null;
             }
         }

@@ -8,9 +8,9 @@ namespace LoserModel.Request
     /// <summary>
     /// 信息请求实体
     /// </summary>
-    public class RQBase : InfoBase
+    public class RQBase
     {
-        
+        public InfoBase xmlmsg = new InfoBase();
         /// <summary>
         /// 消息id，64位整型
         /// </summary>

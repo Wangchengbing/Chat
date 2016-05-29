@@ -19,7 +19,7 @@ namespace LoserServer
         /// <param name="strurl_">URL包含IP</param>
         /// <param name="code_">编码</param>
         /// <returns></returns>
-        public static string Get(string strurl_, string code_, ref bool isError_)
+        public static string Get(string strurl_, string code_, ref bool isError_, string apikey = "")
         {
             string str = "";
             try
@@ -47,13 +47,39 @@ namespace LoserServer
             return str;
         }
         /// <summary>
+        /// 获取网页的源文件 HTML  百度api
+        /// </summary>
+        /// <param name="strurl_">URL包含IP</param>
+        /// <returns></returns>
+        public static string GetBaidu(string strurl_, string apikey)
+        {
+            string str = "";
+            System.Net.HttpWebRequest request;
+            request = (System.Net.HttpWebRequest)WebRequest.Create(strurl_);
+            request.Method = "GET";
+            // 添加header
+            request.Headers.Add("apikey", apikey);
+            System.Net.HttpWebResponse response;
+            response = (System.Net.HttpWebResponse)request.GetResponse();
+            System.IO.Stream s;
+            s = response.GetResponseStream();
+            StreamReader sr = new StreamReader(s, Encoding.UTF8);
+            str = sr.ReadToEnd();
+            s.Close();
+            sr.Close();
+            return str;
+        }
+        /// <summary>
         /// 
         /// </summary>
         /// <param name="strurl_"></param>
         /// <returns></returns>
-        public static string Get(string strurl_, ref bool isError_)
+        public static string Get(string strurl_, ref bool isError_, string apikey = "")
         {
-            return Get(strurl_, "utf-8", ref isError_);
+            if (string.IsNullOrEmpty(apikey))
+                return Get(strurl_, "utf-8", ref isError_);
+            else
+                return GetBaidu(strurl_, apikey);
         }
         /// <summary>
         /// 
@@ -62,7 +88,7 @@ namespace LoserServer
         /// <param name="URL_"></param>
         /// <param name="Value_"></param>
         /// <returns></returns>
-        public static T Get<T>(string URL_, Dictionary<string, string> Value_, ref bool isError_)
+        public static T Get<T>(string URL_, Dictionary<string, string> Value_, ref bool isError_, string apikey = "")
         {
             if (Value_ != null && Value_.Count > 0)
             {
@@ -73,7 +99,7 @@ namespace LoserServer
                 }
                 URL_ = URL_.Substring(0, URL_.Length - 1);
             }
-            string json = Get(URL_, ref isError_);
+            string json = Get(URL_, ref isError_, apikey);
             return JsonHelper.DeserializeOnly<T>(json);
         }
         /// <summary>
@@ -85,7 +111,7 @@ namespace LoserServer
         /// <returns></returns>
         public static T Get<T>(string url_, string param_, ref bool isError_)
         {
-            string json = Get(url_ + param_,ref isError_);
+            string json = Get(url_ + param_, ref isError_);
             return JsonHelper.DeserializeOnly<T>(json);
         }
         #endregion
@@ -190,7 +216,7 @@ namespace LoserServer
             {
                 result_ = false;
             }
-            
+
             return str;
         }
 

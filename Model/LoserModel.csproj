@@ -55,12 +55,12 @@
     <Compile Include="replyModel\RequestEventClick.cs" />
     <Compile Include="replyModel\RequestVoice.cs" />
     <Compile Include="replyModel\RequestMusic.cs" />
-    <Compile Include="replyModel\RequestArticles.cs" />
     <Compile Include="replyModel\replyBase.cs" />
     <Compile Include="replyModel\RequestVideo.cs" />
     <Compile Include="replyModel\RequestImage.cs" />
     <Compile Include="Request\RQBase.cs" />
     <Compile Include="replyModel\RequestText.cs" />
+    <Compile Include="replyModel\RpArticles.cs" />
     <Compile Include="Response\RPBase.cs" />
     <Compile Include="Response\RPGetaccess_token.cs" />
     <Compile Include="Response\RPGetIp_list.cs" />

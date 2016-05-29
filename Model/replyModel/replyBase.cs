@@ -8,9 +8,9 @@ namespace LoserModel.replyModel
     /// <summary>
     /// 回复信息实体基类
     /// </summary>
-    public class replyBase : InfoBase
+    public class replyBase
     {
-        
+        public InfoBase xmlmsg = new InfoBase();
 
     }
 }

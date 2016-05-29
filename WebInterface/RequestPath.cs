@@ -20,5 +20,17 @@ namespace LoserServer
             string res = ShareData.ApiUrl + name;
             return res;
         }
+
+
+        /// <summary>
+        /// 组装路径  百度api
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
+        public static string CreatePathApi(string name)
+        {
+            string res = ShareData.ApiUrlBaidu + name;
+            return res;
+        }
     }
 }

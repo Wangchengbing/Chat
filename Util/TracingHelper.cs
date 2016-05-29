@@ -32,7 +32,6 @@ namespace LoserUtil
         /// <param name="message">附加的信息</param>
         public static void Error(Exception ex, Type classType, string message)
         {
-            message += "\r\n[Havetime]=" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss:fff");
             Trace trace = new Trace() { ex = ex, classType = classType, message = message, traceType = TraceType.Error };
             add(trace);
         }
@@ -72,7 +71,6 @@ namespace LoserUtil
         public static void Warning(string message)
         {
             if (!_openInfoTrace) return;
-            message += "\r\n[Havetime]=" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss:fff");
             Trace trace = new Trace() { ex = null, traceType = TraceType.Warning, classType = null, message = message };
             add(trace);
         }
@@ -92,7 +90,6 @@ namespace LoserUtil
         /// <param name="message">日志内容</param>
         public static void Info(Type typeName, string message)
         {
-            message += "\r\n[Havetime]=" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss:fff");
             Trace trace = new Trace() { ex = null, traceType = TraceType.Info, classType = typeName, message = message };
             add(trace);
         }
@@ -222,8 +219,7 @@ namespace LoserUtil
 
         private static string buildTrace(Trace trace)
         {
-            //[{0}]\r\n[{5}]\r\n[Time]={1}\r\n[className]={2}\r\n[ExceptionMessage]={3}\r\n[ExceptionStackTrace]={4}\r\n{5}\r\n\r\n";
-            //"{0}\r\n[{5}]\r\n[Time]={1}\r\n[className]={1}\r\n[ExceptionMessage]={2}\r\n[ExceptionStackTrace]={3}\r\n{4}
+            //"[{0}]\r\n[{5}]\r\n[Time]={1}\r\n[className]={2}\r\n[ExceptionMessage]={3}\r\n[ExceptionStackTrace]={4}\r\n\r\n";
             if (trace == null) return null;
             try
             {

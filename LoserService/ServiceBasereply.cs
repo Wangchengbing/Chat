@@ -6,7 +6,7 @@ using System.Text;
 
 namespace LoserService
 {
-    public abstract class ServiceBase
+    public abstract class ServiceBasereply
     {
         
 

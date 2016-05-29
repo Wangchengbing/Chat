@@ -8,13 +8,14 @@ using LoserServer;
 using LoserModel.Request;
 using LoserModel.Response;
 using LoserModel.replyModel;
+using LoserUtil;
 
 namespace LoserService
 {
     /// <summary>
     /// 回复文本
     /// </summary>
-    public class replyVoice : ServiceBase
+    public class replyVoice : ServiceBasereply
     {
 
         public override string ReplyExecute(replyBase json)
@@ -24,13 +25,13 @@ namespace LoserService
                               <ToUserName><![CDATA[{0}]]></ToUserName>
                               <FromUserName><![CDATA[{1}]]></FromUserName>
                               <CreateTime>{2}</CreateTime>
-                              <MsgType><![CDATA[{3}]]></MsgType>
+                              <MsgType><![CDATA[voice]]></MsgType>
                               <Voice>
-                                <MediaId><![CDATA[{4}]]></MediaId>
+                                <MediaId><![CDATA[{3}]]></MediaId>
                               </Voice>
                             </xml>";
             RequestVoice json1 = json as RequestVoice;
-            xml = string.Format(xml, json.ToUserName, json.FromUserName, json.CreateTime, json.MsgType, json1.Voice.MediaId);
+            xml = string.Format(xml, json.xmlmsg.ToUserName, json.xmlmsg.FromUserName, SerializeHelper.longtime().ToString(), json1.Voice.MediaId);
             return xml;
         }
     }

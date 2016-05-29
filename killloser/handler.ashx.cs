@@ -36,11 +36,11 @@ namespace killloser
                     Execute(postString);
                 }
             }
-            else if (HttpContext.Current.Request.HttpMethod.ToUpper() == "GET")
-            {
-                TracingHelper.Info("Get " + postString);
-                Execute(postString);
-            }
+            //else if (HttpContext.Current.Request.HttpMethod.ToUpper() == "GET")
+            //{
+            //    TracingHelper.Info("Get " + postString);
+            //    Execute(postString);
+            //}
             else
             {
                 Auth(); //微信接入的测试
@@ -97,7 +97,8 @@ namespace killloser
             }
             catch (Exception ex)
             {
-                throw ex;
+                TracingHelper.Error(ex,typeof(handler),ex.Message);
+                return false;
             }
         }
 

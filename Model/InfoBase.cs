@@ -26,6 +26,8 @@ namespace LoserModel
         /// 信息类型  text  voice  image  video  shortvideo  link   location
         /// </summary>
         public string MsgType { get; set; }
+
+        public string Contents { get; set; }
         
 
     }

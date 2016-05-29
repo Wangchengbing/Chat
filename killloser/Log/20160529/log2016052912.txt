@@ -1,0 +1,166 @@
+[Info]
+[[Message]=检验access_token完毕]
+[Time]=2016-05-29 12:32:36:382
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Error]
+[[Message]=根级别上的数据无效。 第 7 行，位置 7。]
+[Time]=2016-05-29 12:32:44:558
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Error]
+[[Message]=根级别上的数据无效。 第 7 行，位置 7。]
+[Time]=2016-05-29 12:34:05:354
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Info]
+[[Message]=业务处理完毕  
+KillLose无梦想不青春]
+[Time]=2016-05-29 12:34:05:354
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Info]
+[[Message]=检验access_token完毕]
+[Time]=2016-05-29 12:34:16:669
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Info]
+[[Message]= HandleText  <xml>
+  <ToUserName><![CDATA[gh_c6fe4fcbb3a9]]></ToUserName>
+  <FromUserName><![CDATA[oD2h5s1xkurbt56bcfJFMb1sSUA4]]></FromUserName>
+  <CreateTime>1464496824</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[欢迎各位小主的关注
+宝宝会争做大家喜欢的公众号
+小主们可以直接提建议
+小主回复美女、头条获取最新报道
+还可以跟偶随便聊天哟
+KillLose无梦想不青春]]></Content>
+</xml>]
+[Time]=2016-05-29 12:40:24:242
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Info]
+[[Message]=业务处理完毕  <xml>
+  <ToUserName><![CDATA[gh_c6fe4fcbb3a9]]></ToUserName>
+  <FromUserName><![CDATA[oD2h5s1xkurbt56bcfJFMb1sSUA4]]></FromUserName>
+  <CreateTime>1464496824</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[欢迎各位小主的关注
+宝宝会争做大家喜欢的公众号
+小主们可以直接提建议
+小主回复美女、头条获取最新报道
+还可以跟偶随便聊天哟
+KillLose无梦想不青春]]></Content>
+</xml>]
+[Time]=2016-05-29 12:40:24:242
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Info]
+[[Message]=检验access_token完毕]
+[Time]=2016-05-29 12:42:05:476
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Info]
+[[Message]=检验access_token完毕]
+[Time]=2016-05-29 12:45:34:043
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Info]
+[[Message]=检验access_token完毕]
+[Time]=2016-05-29 12:52:22:862
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Info]
+[[Message]= HandleText  <xml>
+                                            <ToUserName><![CDATA[gh_c6fe4fcbb3a9]]></ToUserName>  
+                                            <FromUserName><![CDATA[oD2h5s1xkurbt56bcfJFMb1sSUA4]]></FromUserName>  
+                                            <CreateTime>2016/5/29 12:53:09</CreateTime>  
+                                            <MsgType><![CDATA[news]]></MsgType>  
+                                            <ArticleCount>4</ArticleCount>  
+                                            <Articles><item>  
+                                            <Title><![CDATA[刘雨欣美女桌面]]></Title>   
+                                            <Description><![CDATA[美女图片]]></Description>  
+                                            <PicUrl><![CDATA[http://m.xxxiao.com/wp-content/uploads/sites/3/2015/06/m.xxxiao.com_2411c2dfab27e4411a27c16f4f87dd22-760x500.jpg]]></PicUrl>  
+                                            <Url><![CDATA[http://m.xxxiao.com/1811]]></Url>  
+                                            </item><item>  
+                                            <Title><![CDATA[[TGOD推女神] 泳池美人虞 75F乳神于姬Una私房泳装]]></Title>   
+                                            <Description><![CDATA[美女图片]]></Description>  
+                                            <PicUrl><![CDATA[http://m.xxxiao.com/wp-content/uploads/sites/3/2015/04/m.xxxiao.com_3e6ffd8abf2d3fbd1040b02edb6bcb66-760x500.jpg]]></PicUrl>  
+                                            <Url><![CDATA[http://m.xxxiao.com/370]]></Url>  
+                                            </item><item>  
+                                            <Title><![CDATA[明星壁纸赵丽颖高清桌面]]></Title>   
+                                            <Description><![CDATA[美女图片]]></Description>  
+                                            <PicUrl><![CDATA[http://m.xxxiao.com/wp-content/uploads/sites/3/2015/06/m.xxxiao.com_4f5d4bcd03ee2ef0c60bfc0e17a00ea6-760x500.jpg]]></PicUrl>  
+                                            <Url><![CDATA[http://m.xxxiao.com/2004]]></Url>  
+                                            </item><item>  
+                                            <Title><![CDATA[俏皮泳装巨乳美女杉原杏璃]]></Title>   
+                                            <Description><![CDATA[美女图片]]></Description>  
+                                            <PicUrl><![CDATA[http://m.xxxiao.com/wp-content/uploads/sites/3/2015/06/m.xxxiao.com_4458cc69f8353d1ab287f6ba830c4edb-760x500.jpg]]></PicUrl>  
+                                            <Url><![CDATA[http://m.xxxiao.com/1939]]></Url>  
+                                            </item></Articles></xml>  ]
+[Time]=2016-05-29 12:53:38:332
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Info]
+[[Message]=业务处理完毕  <xml>
+                                            <ToUserName><![CDATA[gh_c6fe4fcbb3a9]]></ToUserName>  
+                                            <FromUserName><![CDATA[oD2h5s1xkurbt56bcfJFMb1sSUA4]]></FromUserName>  
+                                            <CreateTime>2016/5/29 12:53:09</CreateTime>  
+                                            <MsgType><![CDATA[news]]></MsgType>  
+                                            <ArticleCount>4</ArticleCount>  
+                                            <Articles><item>  
+                                            <Title><![CDATA[刘雨欣美女桌面]]></Title>   
+                                            <Description><![CDATA[美女图片]]></Description>  
+                                            <PicUrl><![CDATA[http://m.xxxiao.com/wp-content/uploads/sites/3/2015/06/m.xxxiao.com_2411c2dfab27e4411a27c16f4f87dd22-760x500.jpg]]></PicUrl>  
+                                            <Url><![CDATA[http://m.xxxiao.com/1811]]></Url>  
+                                            </item><item>  
+                                            <Title><![CDATA[[TGOD推女神] 泳池美人虞 75F乳神于姬Una私房泳装]]></Title>   
+                                            <Description><![CDATA[美女图片]]></Description>  
+                                            <PicUrl><![CDATA[http://m.xxxiao.com/wp-content/uploads/sites/3/2015/04/m.xxxiao.com_3e6ffd8abf2d3fbd1040b02edb6bcb66-760x500.jpg]]></PicUrl>  
+                                            <Url><![CDATA[http://m.xxxiao.com/370]]></Url>  
+                                            </item><item>  
+                                            <Title><![CDATA[明星壁纸赵丽颖高清桌面]]></Title>   
+                                            <Description><![CDATA[美女图片]]></Description>  
+                                            <PicUrl><![CDATA[http://m.xxxiao.com/wp-content/uploads/sites/3/2015/06/m.xxxiao.com_4f5d4bcd03ee2ef0c60bfc0e17a00ea6-760x500.jpg]]></PicUrl>  
+                                            <Url><![CDATA[http://m.xxxiao.com/2004]]></Url>  
+                                            </item><item>  
+                                            <Title><![CDATA[俏皮泳装巨乳美女杉原杏璃]]></Title>   
+                                            <Description><![CDATA[美女图片]]></Description>  
+                                            <PicUrl><![CDATA[http://m.xxxiao.com/wp-content/uploads/sites/3/2015/06/m.xxxiao.com_4458cc69f8353d1ab287f6ba830c4edb-760x500.jpg]]></PicUrl>  
+                                            <Url><![CDATA[http://m.xxxiao.com/1939]]></Url>  
+                                            </item></Articles></xml>  ]
+[Time]=2016-05-29 12:53:38:332
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Info]
+[[Message]=检验access_token完毕]
+[Time]=2016-05-29 12:58:12:846
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+

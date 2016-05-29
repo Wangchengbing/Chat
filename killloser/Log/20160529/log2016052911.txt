@@ -1,0 +1,128 @@
+[Info]
+[[Message]=Get 
+[Havetime]=2016-05-29 11:02:15:764]
+[Time]=2016-05-29 11:02:15:814
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Info]
+[[Message]=检验access_token完毕
+[Havetime]=2016-05-29 11:02:21:196]
+[Time]=2016-05-29 11:02:21:198
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Info]
+[[Message]=Get 
+[Havetime]=2016-05-29 11:03:03:498]
+[Time]=2016-05-29 11:03:03:501
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Info]
+[[Message]=检验access_token完毕
+[Havetime]=2016-05-29 11:03:15:373]
+[Time]=2016-05-29 11:03:19:697
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Error]
+[[Message]=未将对象引用设置到对象的实例。
+[Havetime]=2016-05-29 11:03:19:738]
+[Time]=2016-05-29 11:03:19:739
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Info]
+[[Message]= HandleText  
+[Havetime]=2016-05-29 11:03:19:738]
+[Time]=2016-05-29 11:03:19:739
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Info]
+[[Message]=业务处理完毕  
+[Havetime]=2016-05-29 11:03:19:738]
+[Time]=2016-05-29 11:03:19:739
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Info]
+[[Message]=Get 
+[Havetime]=2016-05-29 11:06:37:275]
+[Time]=2016-05-29 11:06:37:337
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Info]
+[[Message]=检验access_token完毕
+[Havetime]=2016-05-29 11:06:44:085]
+[Time]=2016-05-29 11:06:44:087
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Info]
+[[Message]=Get 
+[Havetime]=2016-05-29 11:14:36:546]
+[Time]=2016-05-29 11:14:36:599
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Info]
+[[Message]=检验access_token完毕
+[Havetime]=2016-05-29 11:14:40:824]
+[Time]=2016-05-29 11:14:40:827
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Info]
+[[Message]=Get 
+[Havetime]=2016-05-29 11:53:28:434]
+[Time]=2016-05-29 11:53:28:484
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Info]
+[[Message]=检验access_token完毕
+[Havetime]=2016-05-29 11:53:32:526]
+[Time]=2016-05-29 11:53:32:528
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Error]
+[[Message]=缺少根元素。
+[Havetime]=2016-05-29 11:53:35:390]
+[Time]=2016-05-29 11:53:35:414
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Info]
+[[Message]=检验access_token完毕
+[Havetime]=2016-05-29 11:57:46:305]
+[Time]=2016-05-29 11:57:48:252
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Error]
+[[Message]=出现意外的文件结尾。以下元素未封闭: xml. 第 8 行，位置 464。
+[Havetime]=2016-05-29 11:58:07:045]
+[Time]=2016-05-29 11:58:07:047
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
