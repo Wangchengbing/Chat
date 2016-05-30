@@ -57,7 +57,13 @@ namespace LoserService
         }
         public string Execute(string postStr)
         {
-            
+//            postStr = @"<xml><ToUserName><![CDATA[gh_c6fe4fcbb3a9]]></ToUserName>
+//<FromUserName><![CDATA[oD2h5s1xkurbt56bcfJFMb1sSUA4]]></FromUserName>
+//<CreateTime>1464576964</CreateTime>
+//<MsgType><![CDATA[text]]></MsgType>
+//<Content><![CDATA[美女]]></Content>
+//<MsgId>6290310163258790975</MsgId>
+//</xml>";
             string content = msgFinal();
             try
             {

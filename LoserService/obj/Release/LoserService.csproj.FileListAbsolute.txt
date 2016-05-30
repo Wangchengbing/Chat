@@ -10,3 +10,15 @@ D:\GitHub\Chat\LoserService\bin\Release\LoserServer.pdb
 D:\GitHub\Chat\LoserService\obj\Release\LoserService.csprojResolveAssemblyReference.cache
 D:\GitHub\Chat\LoserService\obj\Release\LoserService.dll
 D:\GitHub\Chat\LoserService\obj\Release\LoserService.pdb
+D:\FTP\boyy\sln\Chat\LoserService\bin\Release\LoserService.dll
+D:\FTP\boyy\sln\Chat\LoserService\bin\Release\LoserService.pdb
+D:\FTP\boyy\sln\Chat\LoserService\bin\Release\LoserModel.dll
+D:\FTP\boyy\sln\Chat\LoserService\bin\Release\LoserServer.dll
+D:\FTP\boyy\sln\Chat\LoserService\bin\Release\LoserUtil.dll
+D:\FTP\boyy\sln\Chat\LoserService\bin\Release\Newtonsoft.Json.dll
+D:\FTP\boyy\sln\Chat\LoserService\bin\Release\LoserModel.pdb
+D:\FTP\boyy\sln\Chat\LoserService\bin\Release\LoserUtil.pdb
+D:\FTP\boyy\sln\Chat\LoserService\bin\Release\LoserServer.pdb
+D:\FTP\boyy\sln\Chat\LoserService\obj\Release\LoserService.csprojResolveAssemblyReference.cache
+D:\FTP\boyy\sln\Chat\LoserService\obj\Release\LoserService.dll
+D:\FTP\boyy\sln\Chat\LoserService\obj\Release\LoserService.pdb

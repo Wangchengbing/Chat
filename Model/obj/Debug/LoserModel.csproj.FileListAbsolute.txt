@@ -1,8 +1,5 @@
 D:\FTP\boyy\sln\Chat\Model\bin\Debug\LoserModel.dll
 D:\FTP\boyy\sln\Chat\Model\bin\Debug\LoserModel.pdb
-D:\FTP\boyy\sln\Chat\Model\bin\Debug\LoserUtil.dll
-D:\FTP\boyy\sln\Chat\Model\bin\Debug\LoserUtil.pdb
-D:\FTP\boyy\sln\Chat\Model\obj\Debug\LoserModel.csprojResolveAssemblyReference.cache
 D:\FTP\boyy\sln\Chat\Model\obj\Debug\LoserModel.dll
 D:\FTP\boyy\sln\Chat\Model\obj\Debug\LoserModel.pdb
 D:\GitHub\Chat\Model\bin\Debug\LoserModel.dll
@@ -10,3 +7,4 @@ D:\GitHub\Chat\Model\bin\Debug\LoserModel.pdb
 D:\GitHub\Chat\Model\obj\Debug\LoserModel.dll
 D:\GitHub\Chat\Model\obj\Debug\LoserModel.pdb
 D:\GitHub\Chat\Model\bin\Debug\Newtonsoft.Json.dll
+D:\FTP\boyy\sln\Chat\Model\bin\Debug\Newtonsoft.Json.dll

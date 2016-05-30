@@ -25,3 +25,6 @@ D:\GitHub\Chat\killloser\obj\Debug\killloser.dll
 D:\GitHub\Chat\killloser\obj\Debug\killloser.pdb
 D:\GitHub\Chat\killloser\bin\LoserUtil.dll
 D:\GitHub\Chat\killloser\bin\LoserUtil.pdb
+D:\FTP\boyy\sln\Chat\killloser\bin\killloser.dll.config
+D:\FTP\boyy\sln\Chat\killloser\bin\LoserUtil.dll
+D:\FTP\boyy\sln\Chat\killloser\bin\LoserUtil.pdb

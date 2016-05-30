@@ -25,7 +25,7 @@ namespace LoserService
 
                 string path = RequestPath.CreatePath(RequestType.Ip_list);
                 RPGetIp_list IpListInfo = HTMLHelper.Get<RPGetIp_list>(path, Para, ref connect);
-                if (IpListInfo == null && IpListInfo.errcode != null)
+                if (IpListInfo == null || IpListInfo.errcode != null)
                 {
                     //重新请求access_token
                     new GetAccess_token().Execute("");
@@ -33,7 +33,7 @@ namespace LoserService
             }
             catch (Exception ex)
             {
-                TracingHelper.Error(ex, typeof(GetIp_list), ex.Message);
+                TracingHelper.Error(ex, typeof(GetIp_list), ex.ToString());
             }
             return "";
         }

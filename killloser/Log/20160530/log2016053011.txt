@@ -1,0 +1,73 @@
+[Info]
+[[Message]=检验access_token完毕]
+[Time]=2016-05-30 11:01:14:466
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Info]
+[[Message]= HandleText  <xml>
+                                            <ToUserName><![CDATA[oD2h5s1xkurbt56bcfJFMb1sSUA4]]></ToUserName>  
+                                            <FromUserName><![CDATA[gh_c6fe4fcbb3a9]]></FromUserName>  
+                                            <CreateTime>2016/5/30 11:01:34</CreateTime>  
+                                            <MsgType><![CDATA[news]]></MsgType>  
+                                            <ArticleCount>4</ArticleCount>  
+                                            <Articles><item>  
+                                            <Title><![CDATA[巨乳杉原杏璃 Anri Sugihara 写真集 Gravure Idols &#038; Misty C]]></Title>   
+                                            <Description><![CDATA[美女图片]]></Description>  
+                                            <PicUrl><![CDATA[http://m.xxxiao.com/wp-content/uploads/sites/3/2015/06/m.xxxiao.com_d458e312c6ff6ca3126749ecd922dbf6-760x500.jpg]]></PicUrl>  
+                                            <Url><![CDATA[http://m.xxxiao.com/1644]]></Url>  
+                                            </item><item>  
+                                            <Title><![CDATA[Beautyleg &#8211; Arvi 私房美腿写真]]></Title>   
+                                            <Description><![CDATA[美女图片]]></Description>  
+                                            <PicUrl><![CDATA[http://m.xxxiao.com/wp-content/uploads/sites/3/2015/05/m.xxxiao.com_e7e731faf790487ccaf90d11774fae6b-760x500.jpg]]></PicUrl>  
+                                            <Url><![CDATA[http://m.xxxiao.com/1353]]></Url>  
+                                            </item><item>  
+                                            <Title><![CDATA[篱笆墙后的巨乳美女杉原杏璃]]></Title>   
+                                            <Description><![CDATA[美女图片]]></Description>  
+                                            <PicUrl><![CDATA[http://m.xxxiao.com/wp-content/uploads/sites/3/2015/06/m.xxxiao.com_3517d593632d19b77032faaeef2fbf68-760x500.jpg]]></PicUrl>  
+                                            <Url><![CDATA[http://m.xxxiao.com/1908]]></Url>  
+                                            </item><item>  
+                                            <Title><![CDATA[美女许允美黑花连裙衣海边写真]]></Title>   
+                                            <Description><![CDATA[美女图片]]></Description>  
+                                            <PicUrl><![CDATA[http://m.xxxiao.com/wp-content/uploads/sites/3/2015/05/m.xxxiao.com_ac8044b0a0ee6c0ff51fa4ed4df1010e-760x500.jpg]]></PicUrl>  
+                                            <Url><![CDATA[http://m.xxxiao.com/1268]]></Url>  
+                                            </item></Articles></xml>  ]
+[Time]=2016-05-30 11:01:38:409
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Info]
+[[Message]=业务处理完毕  <xml>
+                                            <ToUserName><![CDATA[oD2h5s1xkurbt56bcfJFMb1sSUA4]]></ToUserName>  
+                                            <FromUserName><![CDATA[gh_c6fe4fcbb3a9]]></FromUserName>  
+                                            <CreateTime>2016/5/30 11:01:34</CreateTime>  
+                                            <MsgType><![CDATA[news]]></MsgType>  
+                                            <ArticleCount>4</ArticleCount>  
+                                            <Articles><item>  
+                                            <Title><![CDATA[巨乳杉原杏璃 Anri Sugihara 写真集 Gravure Idols &#038; Misty C]]></Title>   
+                                            <Description><![CDATA[美女图片]]></Description>  
+                                            <PicUrl><![CDATA[http://m.xxxiao.com/wp-content/uploads/sites/3/2015/06/m.xxxiao.com_d458e312c6ff6ca3126749ecd922dbf6-760x500.jpg]]></PicUrl>  
+                                            <Url><![CDATA[http://m.xxxiao.com/1644]]></Url>  
+                                            </item><item>  
+                                            <Title><![CDATA[Beautyleg &#8211; Arvi 私房美腿写真]]></Title>   
+                                            <Description><![CDATA[美女图片]]></Description>  
+                                            <PicUrl><![CDATA[http://m.xxxiao.com/wp-content/uploads/sites/3/2015/05/m.xxxiao.com_e7e731faf790487ccaf90d11774fae6b-760x500.jpg]]></PicUrl>  
+                                            <Url><![CDATA[http://m.xxxiao.com/1353]]></Url>  
+                                            </item><item>  
+                                            <Title><![CDATA[篱笆墙后的巨乳美女杉原杏璃]]></Title>   
+                                            <Description><![CDATA[美女图片]]></Description>  
+                                            <PicUrl><![CDATA[http://m.xxxiao.com/wp-content/uploads/sites/3/2015/06/m.xxxiao.com_3517d593632d19b77032faaeef2fbf68-760x500.jpg]]></PicUrl>  
+                                            <Url><![CDATA[http://m.xxxiao.com/1908]]></Url>  
+                                            </item><item>  
+                                            <Title><![CDATA[美女许允美黑花连裙衣海边写真]]></Title>   
+                                            <Description><![CDATA[美女图片]]></Description>  
+                                            <PicUrl><![CDATA[http://m.xxxiao.com/wp-content/uploads/sites/3/2015/05/m.xxxiao.com_ac8044b0a0ee6c0ff51fa4ed4df1010e-760x500.jpg]]></PicUrl>  
+                                            <Url><![CDATA[http://m.xxxiao.com/1268]]></Url>  
+                                            </item></Articles></xml>  ]
+[Time]=2016-05-30 11:01:52:800
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+

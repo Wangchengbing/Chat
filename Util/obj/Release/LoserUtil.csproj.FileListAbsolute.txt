@@ -6,3 +6,11 @@ D:\GitHub\Chat\Util\bin\Release\LoserModel.pdb
 D:\GitHub\Chat\Util\obj\Release\LoserUtil.csprojResolveAssemblyReference.cache
 D:\GitHub\Chat\Util\obj\Release\LoserUtil.dll
 D:\GitHub\Chat\Util\obj\Release\LoserUtil.pdb
+D:\FTP\boyy\sln\Chat\Util\bin\Release\LoserUtil.dll
+D:\FTP\boyy\sln\Chat\Util\bin\Release\LoserUtil.pdb
+D:\FTP\boyy\sln\Chat\Util\bin\Release\LoserModel.dll
+D:\FTP\boyy\sln\Chat\Util\bin\Release\Newtonsoft.Json.dll
+D:\FTP\boyy\sln\Chat\Util\bin\Release\LoserModel.pdb
+D:\FTP\boyy\sln\Chat\Util\obj\Release\LoserUtil.csprojResolveAssemblyReference.cache
+D:\FTP\boyy\sln\Chat\Util\obj\Release\LoserUtil.dll
+D:\FTP\boyy\sln\Chat\Util\obj\Release\LoserUtil.pdb

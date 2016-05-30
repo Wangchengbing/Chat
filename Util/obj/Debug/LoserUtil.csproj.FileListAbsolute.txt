@@ -10,3 +10,7 @@ D:\GitHub\Chat\Util\obj\Debug\LoserUtil.pdb
 D:\GitHub\Chat\Util\bin\Debug\LoserModel.dll
 D:\GitHub\Chat\Util\bin\Debug\Newtonsoft.Json.dll
 D:\GitHub\Chat\Util\bin\Debug\LoserModel.pdb
+D:\FTP\boyy\sln\Chat\Util\bin\Debug\LoserModel.dll
+D:\FTP\boyy\sln\Chat\Util\bin\Debug\Newtonsoft.Json.dll
+D:\FTP\boyy\sln\Chat\Util\bin\Debug\LoserModel.pdb
+D:\FTP\boyy\sln\Chat\Util\obj\Debug\LoserUtil.csprojResolveAssemblyReference.cache

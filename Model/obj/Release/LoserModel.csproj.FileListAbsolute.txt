@@ -4,3 +4,9 @@ D:\GitHub\Chat\Model\bin\Release\Newtonsoft.Json.dll
 D:\GitHub\Chat\Model\obj\Release\LoserModel.dll
 D:\GitHub\Chat\Model\obj\Release\LoserModel.pdb
 D:\GitHub\Chat\Model\obj\Release\LoserModel.csprojResolveAssemblyReference.cache
+D:\FTP\boyy\sln\Chat\Model\bin\Release\LoserModel.dll
+D:\FTP\boyy\sln\Chat\Model\bin\Release\LoserModel.pdb
+D:\FTP\boyy\sln\Chat\Model\bin\Release\Newtonsoft.Json.dll
+D:\FTP\boyy\sln\Chat\Model\obj\Release\LoserModel.csprojResolveAssemblyReference.cache
+D:\FTP\boyy\sln\Chat\Model\obj\Release\LoserModel.dll
+D:\FTP\boyy\sln\Chat\Model\obj\Release\LoserModel.pdb

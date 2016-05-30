@@ -97,7 +97,7 @@ namespace killloser
             }
             catch (Exception ex)
             {
-                TracingHelper.Error(ex,typeof(handler),ex.Message);
+                TracingHelper.Error(ex, typeof(handler), ex.Message);
                 return false;
             }
         }
@@ -118,8 +118,10 @@ namespace killloser
             string responseContent = dispatch.Execute(postString);
             TracingHelper.Info("业务处理完毕  " + responseContent);
             //3.返回微信服务器
+
             HttpContext.Current.Response.ContentEncoding = Encoding.UTF8;
             HttpContext.Current.Response.Write(responseContent);
+
         }
 
         public bool IsReusable
