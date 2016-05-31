@@ -22,3 +22,5 @@ D:\GitHub\Chat\LoserService\bin\Debug\LoserServer.pdb
 D:\GitHub\Chat\LoserService\obj\Debug\LoserService.csprojResolveAssemblyReference.cache
 D:\GitHub\Chat\LoserService\obj\Debug\LoserService.dll
 D:\GitHub\Chat\LoserService\obj\Debug\LoserService.pdb
+D:\FTP\boyy\sln\Chat\LoserService\bin\Debug\LoserDAL.dll
+D:\FTP\boyy\sln\Chat\LoserService\bin\Debug\LoserDAL.pdb

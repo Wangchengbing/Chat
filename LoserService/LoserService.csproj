@@ -44,8 +44,8 @@
     <Compile Include="API\Btgirl.cs" />
     <Compile Include="API\Getjoke.cs" />
     <Compile Include="API\DeepQA.cs" />
-    <Compile Include="CreateMenu.cs" />
-    <Compile Include="GetAccess_token.cs" />
+    <Compile Include="WeiXin\CreateMenu.cs" />
+    <Compile Include="WeiXin\GetAccess_token.cs" />
     <Compile Include="IWeixinAction.cs" />
     <Compile Include="LoserFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -54,12 +54,16 @@
     <Compile Include="replyService\replyVideo.cs" />
     <Compile Include="replyService\replyImage.cs" />
     <Compile Include="replyService\replyText.cs" />
-    <Compile Include="ServiceBaseAPI.cs" />
-    <Compile Include="ServiceBasereply.cs" />
-    <Compile Include="GetIp_list.cs" />
+    <Compile Include="API\ServiceBaseAPI.cs" />
+    <Compile Include="replyService\ServiceBasereply.cs" />
+    <Compile Include="WeiXin\GetIp_list.cs" />
     <Compile Include="WeixinApiDispatch.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\LoserDAL\LoserDAL.csproj">
+      <Project>{47a5a481-f51e-4483-ae72-15b26e635347}</Project>
+      <Name>LoserDAL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Model\LoserModel.csproj">
       <Project>{B697501B-EDA8-492B-8EA3-792310FED43A}</Project>
       <Name>LoserModel</Name>

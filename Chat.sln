@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoserUtil", "Util\LoserUtil
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoserService", "LoserService\LoserService.csproj", "{00C1F262-E1C7-42B8-9994-7BABC4179106}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoserDAL", "LoserDAL\LoserDAL.csproj", "{47A5A481-F51E-4483-AE72-15B26E635347}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{00C1F262-E1C7-42B8-9994-7BABC4179106}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00C1F262-E1C7-42B8-9994-7BABC4179106}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00C1F262-E1C7-42B8-9994-7BABC4179106}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47A5A481-F51E-4483-AE72-15B26E635347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A5A481-F51E-4483-AE72-15B26E635347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A5A481-F51E-4483-AE72-15B26E635347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47A5A481-F51E-4483-AE72-15B26E635347}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
