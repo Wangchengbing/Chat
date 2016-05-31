@@ -7,8 +7,6 @@ using LoserUtil;
 using LoserModel.Enum;
 using LoserModel.replyModel;
 using LoserModel;
-using System.Data;
-using LoserDAL;
 
 namespace LoserService
 {
@@ -104,13 +102,6 @@ namespace LoserService
                 TracingHelper.Error(ex,typeof(WeixinApiDispatch),ex.Message);
             }
             return content;
-        }
-
-
-        public void getSql() {
-
-            string sql = "select * From loser";
-            DataSet ds = SqlHelper.ExecuteDataSet(sql);
         }
 
         /// <summary>

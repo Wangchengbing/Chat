@@ -71,20 +71,12 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="handler.ashx.cs">
       <DependentUpon>handler.ashx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="handler.ashx" />
@@ -101,6 +93,10 @@
     <ProjectReference Include="..\Util\LoserUtil.csproj">
       <Project>{A54CE508-CFC8-4BCB-824F-3B320396B030}</Project>
       <Name>LoserUtil</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebInterface\LoserServer.csproj">
+      <Project>{65C73F79-DD1F-4AAA-B460-73DC997447F8}</Project>
+      <Name>LoserServer</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

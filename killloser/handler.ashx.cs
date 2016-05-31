@@ -43,7 +43,6 @@ namespace killloser
             //}
             else
             {
-                
                 Auth(); //微信接入的测试
             }
         }
@@ -116,7 +115,6 @@ namespace killloser
             TracingHelper.Info("检验access_token完毕");
             //2.业务处理
             WeixinApiDispatch dispatch = new WeixinApiDispatch();
-            //dispatch.getSql();
             string responseContent = dispatch.Execute(postString);
             TracingHelper.Info("业务处理完毕  " + responseContent);
             //3.返回微信服务器
