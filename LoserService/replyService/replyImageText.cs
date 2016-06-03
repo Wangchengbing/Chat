@@ -8,6 +8,7 @@ using LoserServer;
 using LoserModel.Request;
 using LoserModel.Response;
 using LoserModel.replyModel;
+using LoserUtil;
 
 namespace LoserService
 {
@@ -30,7 +31,7 @@ namespace LoserService
                                             <MsgType><![CDATA[news]]></MsgType>  
                                             <ArticleCount>{3}</ArticleCount>  
                                             <Articles>",
-                        art.xmlmsg.ToUserName, art.xmlmsg.FromUserName, DateTime.Now, art.newslist.Count);
+                        art.xmlmsg.ToUserName, art.xmlmsg.FromUserName, SerializeHelper.longtime().ToString(), art.newslist.Count);
             foreach (newslist itemArticles in art.newslist)
             {
                 count++;

@@ -19,7 +19,6 @@ namespace killloser
     {
         public void ProcessRequest(HttpContext context)
         {
-            //TracingHelper.Initialization(1, 1, 1, 1, "Log", "", "");
             string postString = string.Empty;
             if (HttpContext.Current.Request.HttpMethod.ToUpper() == "POST")
             {
@@ -43,7 +42,8 @@ namespace killloser
             //}
             else
             {
-                Auth(); //微信接入的测试
+                TracingHelper.Info("Url:  " + HttpContext.Current.Request.Url.ToString());
+                Auth();
             }
         }
         /// <summary>
@@ -51,7 +51,7 @@ namespace killloser
         /// </summary>
         private void Auth()
         {
-            if (string.IsNullOrEmpty(ShareData.token))
+            if (string.IsNullOrEmpty(ShareData.wxToken))
             {
                 //LogTextHelper.Error(string.Format("WeixinToken 配置项没有配置！"));
             }
@@ -61,7 +61,7 @@ namespace killloser
             string timestamp = HttpContext.Current.Request.QueryString["timestamp"];
             string nonce = HttpContext.Current.Request.QueryString["nonce"];
 
-            if (checkSignature(ShareData.token, signature, timestamp, nonce))
+            if (checkSignature(ShareData.wxToken, signature, timestamp, nonce))
             {
                 if (!string.IsNullOrEmpty(echoString))
                 {
@@ -111,8 +111,8 @@ namespace killloser
         {
 
             //1.检验access_token
-            new GetIp_list().Execute("");
-            TracingHelper.Info("检验access_token完毕");
+            new GetIp_list().Execute("wx");
+            TracingHelper.Info("检验wxaccess_token完毕");
             //2.业务处理
             WeixinApiDispatch dispatch = new WeixinApiDispatch();
             string responseContent = dispatch.Execute(postString);

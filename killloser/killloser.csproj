@@ -73,6 +73,9 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="handlerTop.ashx.cs">
+      <DependentUpon>handlerTop.ashx</DependentUpon>
+    </Compile>
     <Compile Include="handler.ashx.cs">
       <DependentUpon>handler.ashx</DependentUpon>
     </Compile>
@@ -100,6 +103,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="handlerTop.ashx" />
     <None Include="Properties\PublishProfiles\配置文件1.pubxml" />
   </ItemGroup>
   <PropertyGroup>

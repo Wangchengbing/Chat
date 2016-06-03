@@ -13,6 +13,8 @@ namespace LoserUtil.Enum
 
         //获取access_token
         public const string access_token = "token";
+        //获取qyaccess_token
+        public const string qyaccess_token = "gettoken";
         //api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=APPID&secret=APPSECRET
         //获取微信服务器IP地址
         public const string Ip_list = "getcallbackip";

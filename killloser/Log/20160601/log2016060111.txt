@@ -1,0 +1,56 @@
+[Error]
+[[Message]=未将对象引用设置到对象的实例。]
+[Time]=2016-06-01 11:12:59:799
+[className]=killloser.handler
+[ExceptionMessage]=未将对象引用设置到对象的实例。
+[ExceptionStackTrace]=   在 killloser.handler.checkSignature(String token, String signature, String timestamp, String nonce) 位置 D:\FTP\boyy\sln\Chat\killloser\handler.ashx.cs:行号 93
+
+[Error]
+[[Message]=未将对象引用设置到对象的实例。]
+[Time]=2016-06-01 11:13:04:239
+[className]=killloser.handler
+[ExceptionMessage]=未将对象引用设置到对象的实例。
+[ExceptionStackTrace]=   在 killloser.handler.checkSignature(String token, String signature, String timestamp, String nonce) 位置 D:\FTP\boyy\sln\Chat\killloser\handler.ashx.cs:行号 93
+
+[Error]
+[[Message]=未将对象引用设置到对象的实例。]
+[Time]=2016-06-01 11:15:18:234
+[className]=killloser.handler
+[ExceptionMessage]=未将对象引用设置到对象的实例。
+[ExceptionStackTrace]=   在 killloser.handler.checkSignature(String token, String signature, String timestamp, String nonce) 位置 D:\FTP\boyy\sln\Chat\killloser\handler.ashx.cs:行号 93
+
+[Error]
+[[Message]=未将对象引用设置到对象的实例。]
+[Time]=2016-06-01 11:15:29:955
+[className]=killloser.handler
+[ExceptionMessage]=未将对象引用设置到对象的实例。
+[ExceptionStackTrace]=   在 killloser.handler.checkSignature(String token, String signature, String timestamp, String nonce) 位置 D:\FTP\boyy\sln\Chat\killloser\handler.ashx.cs:行号 93
+
+[Error]
+[[Message]=未将对象引用设置到对象的实例。]
+[Time]=2016-06-01 11:20:59:010
+[className]=killloser.handler
+[ExceptionMessage]=未将对象引用设置到对象的实例。
+[ExceptionStackTrace]=   在 killloser.handler.checkSignature(String token, String signature, String timestamp, String nonce)
+
+[Info]
+[[Message]=Url:  http://localhost:25384/]
+[Time]=2016-06-01 11:41:03:801
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Info]
+[[Message]=echoString  msg_signature  timestamp  nonce ]
+[Time]=2016-06-01 11:41:05:267
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Error]
+[[Message]=未将对象引用设置到对象的实例。]
+[Time]=2016-06-01 11:41:05:267
+[className]=killloser.handlerTop
+[ExceptionMessage]=未将对象引用设置到对象的实例。
+[ExceptionStackTrace]=   在 killloser.handlerTop.checkSignature(String token, String signature, String timestamp, String nonce) 位置 D:\FTP\boyy\sln\Chat\killloser\handlerTop.ashx.cs:行号 92
+

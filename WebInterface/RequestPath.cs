@@ -11,13 +11,24 @@ namespace LoserServer
     public class RequestPath
     {
         /// <summary>
-        /// 组装路径
+        /// 组装路径   订阅号请求微信接口
         /// </summary>
         /// <param name="name"></param>
         /// <returns></returns>
         public static string CreatePath(string name)
         {
-            string res = ShareData.ApiUrl + name;
+            string res = ShareData.wxApiUrl + name;
+            return res;
+        }
+
+        /// <summary>
+        /// 组装路径   企业号请求微信接口
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
+        public static string CreatePathqy(string name)
+        {
+            string res = ShareData.qyApiUrl + name;
             return res;
         }
 

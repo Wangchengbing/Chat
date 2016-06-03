@@ -11,7 +11,7 @@ using LoserModel.replyModel;
 
 namespace LoserService
 {
-    public class CreateMenu
+    public class qyCreateMenu
     {
         public string Execute(string json)
         {
@@ -64,7 +64,7 @@ namespace LoserService
             string RqJson = JsonHelper.Serialize(MenuList);
             //组建参数字典
             Dictionary<string, string> Para = new Dictionary<string, string>();
-            Para.Add("access_token", ShareData.access_token);
+            Para.Add("access_token", ShareData.wxaccess_token);
             Para.Add("body", RqJson);
 
 

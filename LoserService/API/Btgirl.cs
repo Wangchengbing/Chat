@@ -40,7 +40,7 @@ namespace LoserService
             }
             catch (Exception ex)
             {
-                TracingHelper.Error(ex, typeof(Btgirl), ex.Message);
+                TracingHelper.Error(ex, typeof(Btgirl),  ex.Message);
             }
             return xml;
         }

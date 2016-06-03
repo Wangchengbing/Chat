@@ -11,21 +11,21 @@ using LoserModel.replyModel;
 
 namespace LoserService
 {
-    public class GetAccess_token
+    public class qyGetAccess_token
     {
         public string Execute(string json)
         {
             bool connect = false;
             //组建参数字典
             Dictionary<string, string> Para = new Dictionary<string, string>();
-            Para.Add("grant_type", "client_credential");
-            Para.Add("appid", ShareData.appid);
-            Para.Add("secret", ShareData.secret);
+           
+            Para.Add("corpid", ShareData.qyCorpID);
+            Para.Add("corpsecret", ShareData.qySecret);
 
-            string path = RequestPath.CreatePath(RequestType.access_token);
+            string path = RequestPath.CreatePathqy(RequestType.qyaccess_token);
             RPGetaccess_token tokenInfo = HTMLHelper.Get<RPGetaccess_token>(path, Para, ref connect);
             if (tokenInfo != null)
-                ShareData.access_token = tokenInfo.access_token;
+                ShareData.qyaccess_token = tokenInfo.access_token;
             return "";
         }
         

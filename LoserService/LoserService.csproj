@@ -44,9 +44,13 @@
     <Compile Include="API\Btgirl.cs" />
     <Compile Include="API\Getjoke.cs" />
     <Compile Include="API\DeepQA.cs" />
-    <Compile Include="CreateMenu.cs" />
-    <Compile Include="GetAccess_token.cs" />
-    <Compile Include="IWeixinAction.cs" />
+    <Compile Include="qyAPI\qyCreateMenu.cs" />
+    <Compile Include="qyAPI\qyGetAccess_token.cs" />
+    <Compile Include="qyAPI\qyGetIp_list.cs" />
+    <Compile Include="qyAPI\qyService.cs" />
+    <Compile Include="wxAPI\CreateMenu.cs" />
+    <Compile Include="wxAPI\GetAccess_token.cs" />
+    <Compile Include="wxAPI\IWeixinAction.cs" />
     <Compile Include="LoserFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="replyService\replyImageText.cs" />
@@ -54,10 +58,10 @@
     <Compile Include="replyService\replyVideo.cs" />
     <Compile Include="replyService\replyImage.cs" />
     <Compile Include="replyService\replyText.cs" />
-    <Compile Include="ServiceBaseAPI.cs" />
-    <Compile Include="ServiceBasereply.cs" />
-    <Compile Include="GetIp_list.cs" />
-    <Compile Include="WeixinApiDispatch.cs" />
+    <Compile Include="API\ServiceBaseAPI.cs" />
+    <Compile Include="replyService\ServiceBasereply.cs" />
+    <Compile Include="wxAPI\GetIp_list.cs" />
+    <Compile Include="wxAPI\WeixinApiDispatch.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Model\LoserModel.csproj">

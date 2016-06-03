@@ -1,0 +1,76 @@
+[Info]
+[[Message]=qy检验access_token完毕]
+[Time]=2016-06-03 18:17:07:752
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Info]
+[[Message]=Url:  http://localhost:25384/handlerTop.ashx]
+[Time]=2016-06-03 18:20:20:554
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Info]
+[[Message]=qy检验access_token完毕]
+[Time]=2016-06-03 18:23:13:570
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Error]
+[[Message]=qy 消息解密 ： 未能比较数组中的两个元素。]
+[Time]=2016-06-03 18:24:04:107
+[className]=killloser.handlerTop
+[ExceptionMessage]=未能比较数组中的两个元素。
+[ExceptionStackTrace]=   在 System.Array.SorterObjectArray.DepthLimitedQuickSort(Int32 left, Int32 right, Int32 depthLimit)
+   在 System.Array.Sort(Array keys, Array items, Int32 index, Int32 length, IComparer comparer)
+   在 System.Collections.ArrayList.Sort(Int32 index, Int32 count, IComparer comparer)
+   在 System.Collections.ArrayList.Sort(IComparer comparer)
+   在 LoserUtil.WXBizMsgCrypt.GenarateSinature(String sToken, String sTimeStamp, String sNonce, String sMsgEncrypt, String& sMsgSignature) 位置 D:\FTP\boyy\sln\Chat\Util\AES\WXBizMsgCrypt.cs:行号 211
+   在 LoserUtil.WXBizMsgCrypt.VerifySignature(String sToken, String sTimeStamp, String sNonce, String sMsgEncrypt, String sSigture) 位置 D:\FTP\boyy\sln\Chat\Util\AES\WXBizMsgCrypt.cs:行号 193
+   在 LoserUtil.WXBizMsgCrypt.DecryptMsg(String sMsgSignature, String sTimeStamp, String sNonce, String sPostData, String& sMsg) 位置 D:\FTP\boyy\sln\Chat\Util\AES\WXBizMsgCrypt.cs:行号 118
+   在 killloser.handlerTop.Execute(String postString) 位置 D:\FTP\boyy\sln\Chat\killloser\handlerTop.ashx.cs:行号 103
+
+[Error]
+[[Message]=缺少根元素。]
+[Time]=2016-06-03 18:24:04:193
+[className]=LoserUtil.SerializeHelper
+[ExceptionMessage]=缺少根元素。
+[ExceptionStackTrace]=   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.LoadXml(String xml)
+   在 LoserUtil.SerializeHelper.XmlDeserialize(String xml) 位置 D:\FTP\boyy\sln\Chat\Util\SerializeHelper.cs:行号 73
+
+[Info]
+[[Message]=qy业务处理完毕  ]
+[Time]=2016-06-03 18:24:04:212
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Info]
+[[Message]=qy检验access_token完毕]
+[Time]=2016-06-03 18:32:34:781
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
+[Error]
+[[Message]=未将对象引用设置到对象的实例。]
+[Time]=2016-06-03 18:33:35:160
+[className]=LoserUtil.SerializeHelper
+[ExceptionMessage]=未将对象引用设置到对象的实例。
+[ExceptionStackTrace]=   在 LoserUtil.SerializeHelper.XmlDeserialize(String xml) 位置 D:\FTP\boyy\sln\Chat\Util\SerializeHelper.cs:行号 87
+
+[Info]
+[[Message]=qy业务处理完毕  ]
+[Time]=2016-06-03 18:33:37:999
+[className]=
+[ExceptionMessage]=
+[ExceptionStackTrace]=
+
